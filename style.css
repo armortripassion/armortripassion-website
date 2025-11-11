@@ -170,6 +170,15 @@ body {
     align-items: center;
 }
 
+.hero-image-photo {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(6, 182, 212, 0.2);
+}
+
 .hero-placeholder {
     width: 400px;
     height: 300px;
