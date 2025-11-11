@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armor Tri Passion - Association de Triathlon à Perros-Guirec</title>
+    <meta name="description" content="Armor Tri Passion - Plus qu'un club, une communauté de triathlon inclusive à Perros-Guirec, Côtes d'Armor. Organisateur de La Swim Roz et Tro Enez Veur.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="ATP-Logo-wText-100.jpg" alt="Armor Tri Passion" class="logo">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#accueil" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#evenements" class="nav-link">Événements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section Accueil -->
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1>Bienvenue à Armor Tri Passion</h1>
+                <p class="hero-subtitle">Plus qu'un club, une communauté de triathlon inclusive à Perros-Guirec</p>
+                <div class="hero-description">
+                    <p>Fondée en 2024 sur la magnifique Côte de Granit Rose, Armor Tri Passion est bien plus qu'une association sportive. Nous créons un environnement bienveillant où chacun peut progresser à son rythme, en conciliant passion du triathlon, contraintes familiales et professionnelles.</p>
+                    <p>Notre philosophie : l'inclusivité, l'entraide et le respect du rythme de chacun.</p>
+                </div>
+                <a href="#contact" class="cta-button">Nous rejoindre</a>
+            </div>
+            <div class="hero-image">
+                <div class="hero-placeholder">
+                    <span>Photo Côte de Granit Rose / Triathlon</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Événements -->
+        <section id="evenements" class="events">
+            <div class="container">
+                <h2>Nos Événements</h2>
+                <div class="events-grid">
+                    <div class="event-card">
+                        <div class="event-header">
+                            <h3>La Swim Roz</h3>
+                            <span class="event-status">Événement phare</span>
+                        </div>
+                        <div class="event-content">
+                            <p><strong>Natation en eau libre</strong> dans le cadre exceptionnel de la Côte de Granit Rose, face au phare de Mean Ruz.</p>
+                            <ul class="event-details">
+                                <li>Parcours adapté à tous niveaux</li>
+                                <li>Environnement sécurisé</li>
+                                <li>Ambiance conviviale</li>
+                                <li>Soutien à des causes caritatives</li>
+                            </ul>
+                        </div>
+                        <div class="event-footer">
+                            <p class="event-date">Prochaine édition : été 2025</p>
+                        </div>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="event-header">
+                            <h3>Tro Enez Veur</h3>
+                            <span class="event-status">Nouveau projet</span>
+                        </div>
+                        <div class="event-content">
+                            <p><strong>Triathlon complet</strong> sur la presqu'île de Perros-Guirec, combinant natation, cyclisme et course à pied.</p>
+                            <ul class="event-details">
+                                <li>Parcours découverte du patrimoine local</li>
+                                <li>Différentes distances proposées</li>
+                                <li>Organisation progressive et qualitative</li>
+                                <li>Première édition en 2025</li>
+                            </ul>
+                        </div>
+                        <div class="event-footer">
+                            <p class="event-date">Première édition : 2025, puis 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Nous Contacter</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Manifester votre intérêt</h3>
+                        <p>Vous souhaitez nous rejoindre ou participer à nos événements ? Nous privilégions un premier échange pour mieux vous connaître et vous présenter notre approche.</p>
+                        <div class="contact-details">
+                            <p><strong>Email :</strong> <a href="mailto:contact@armortripassion.fr">contact@armortripassion.fr</a></p>
+                            <p><strong>Localisation :</strong> Perros-Guirec, Côtes d'Armor (22)</p>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <h4>Formulaire de contact</h4>
+                        <div class="form-group">
+                            <label for="nom">Nom *</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" id="telephone" name="telephone">
+                        </div>
+                        <div class="form-group">
+                            <label for="niveau">Votre niveau en triathlon</label>
+                            <select id="niveau" name="niveau">
+                                <option value="">Sélectionnez...</option>
+                                <option value="debutant">Débutant</option>
+                                <option value="occasionnel">Pratiquant occasionnel</option>
+                                <option value="regulier">Pratiquant régulier</option>
+                                <option value="confirme">Confirmé/compétiteur</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="interet">Vous êtes intéressé par :</label>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="interet[]" value="adhesion"> Adhésion à l'association</label>
+                                <label><input type="checkbox" name="interet[]" value="swim-roz"> Participation à La Swim Roz</label>
+                                <label><input type="checkbox" name="interet[]" value="tro-enez-veur"> Participation au Tro Enez Veur</label>
+                                <label><input type="checkbox" name="interet[]" value="benevole"> Bénévolat lors des événements</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="disponibilite">Vos disponibilités (jours/horaires préférés pour la pratique)</label>
+                            <textarea id="disponibilite" name="disponibilite" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="motivation">Parlez-nous de votre motivation</label>
+                            <textarea id="motivation" name="motivation" rows="4" placeholder="Qu'est-ce qui vous attire dans le triathlon ? Quels sont vos objectifs ?"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message libre</label>
+                            <textarea id="message" name="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Envoyer ma demande</button>
+                        <p class="form-note">* Champs obligatoires. Nous vous recontacterons dans les plus brefs délais.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="ATP-Logo-wText-100.jpg" alt="Armor Tri Passion" class="footer-logo-img">
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2024 Armor Tri Passion - Association loi 1901</p>
+                    <p>Perros-Guirec, Côtes d'Armor (22) - Bretagne</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#evenements">Événements</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
