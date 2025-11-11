@@ -7,6 +7,7 @@
     <meta name="description" content="Armor Tri Passion - Plus qu'un club, une communauté de triathlon inclusive à Perros-Guirec, Côtes d'Armor. Organisateur de La Swim Roz et Tro Enez Veur.">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -48,7 +49,9 @@
                 <a href="#contact" class="cta-button">Nous rejoindre</a>
             </div>
             <div class="hero-image">
-                <img src="Ploum-et-costa-small.jpg" alt="Côte de Granit Rose" class="hero-image-photo">
+                <div class="hero-placeholder">
+                    <span>Photo Côte de Granit Rose / Triathlon</span>
+                </div>
             </div>
         </section>
 
@@ -59,38 +62,61 @@
                 <div class="events-grid">
                     <div class="event-card">
                         <div class="event-header">
-                            <h3>Swim Roz</h3>
-                            <span class="event-status">Nouveau projet</span>
+                            <h3>La Swim Roz</h3>
+                            <span class="event-status">Événement phare</span>
                         </div>
                         <div class="event-content">
-                            <p><strong>Swimrun</strong> dans le cadre exceptionnel de Perros-Guirec, entre Ploumanach, Trestraou, Trestrignel et le Port de plaisance.</p>
+                            <p><strong>Natation en eau libre</strong> dans le cadre exceptionnel de la Côte de Granit Rose, face au phare de Mean Ruz.</p>
                             <ul class="event-details">
                                 <li>Parcours adapté à tous niveaux</li>
                                 <li>Environnement sécurisé</li>
                                 <li>Ambiance conviviale</li>
+                                <li>Soutien à des causes caritatives</li>
                             </ul>
                         </div>
+                        <div class="event-social">
+                            <p class="social-label">Suivre l'événement :</p>
+                            <div class="social-links">
+                                <a href="https://facebook.com/laswimroz" target="_blank" rel="noopener" class="social-link facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="https://instagram.com/swimroz" target="_blank" rel="noopener" class="social-link instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                        </div>
                         <div class="event-footer">
-                            <p class="event-date">Prochaine édition : 30 Août 2026</p>
+                            <p class="event-date">Prochaine édition : été 2025</p>
                         </div>
                     </div>
 
                     <div class="event-card">
                         <div class="event-header">
                             <h3>Tro Enez Veur</h3>
-                            <!--<span class="event-status">Nouveau projet</span>-->
+                            <span class="event-status">Nouveau projet</span>
                         </div>
                         <div class="event-content">
-                            <p><strong>Le Tour de l'île Grande</strong> pour émerveiller les petits et les grands.</p>
+                            <p><strong>Triathlon complet</strong> sur la presqu'île de Perros-Guirec, combinant natation, cyclisme et course à pied.</p>
                             <ul class="event-details">
-                                <li>Parcours nature sur les routes et les sentiers de l'île</li>
+                                <li>Parcours découverte du patrimoine local</li>
                                 <li>Différentes distances proposées</li>
                                 <li>Organisation progressive et qualitative</li>
-                                <li>Reprise de la course en 2025 après un arrêt de 6 ans</li>
+                                <li>Première édition en 2025</li>
                             </ul>
                         </div>
+                        <div class="event-social">
+                            <p class="social-label">Suivre l'événement :</p>
+                            <div class="social-links">
+                                <a href="https://facebook.com/troenezveur" target="_blank" rel="noopener" class="social-link facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </div>
+                        </div>
                         <div class="event-footer">
-                            <p class="event-date">Prochaine édition: 4 Octobre 2026</p>
+                            <p class="event-date">Première édition : 2025, puis 2026</p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +132,7 @@
                         <h3>Manifester votre intérêt</h3>
                         <p>Vous souhaitez nous rejoindre ou participer à nos événements ? Nous privilégions un premier échange pour mieux vous connaître et vous présenter notre approche.</p>
                         <div class="contact-details">
-                            <p><strong>Email :</strong> <a href="mailto:armortripassion@gmail.com">armortripassion@gmail.com</a></p>
+                            <p><strong>Email :</strong> <a href="mailto:contact@armortripassion.fr">contact@armortripassion.fr</a></p>
                             <p><strong>Localisation :</strong> Perros-Guirec, Côtes d'Armor (22)</p>
                         </div>
                     </div>
@@ -140,7 +166,7 @@
                             <div class="checkbox-group">
                                 <label><input type="checkbox" name="interet[]" value="adhesion"> Adhésion à l'association</label>
                                 <label><input type="checkbox" name="interet[]" value="swim-roz"> Participation à La Swim Roz</label>
-                                <label><input type="checkbox" name="interet[]" value="tro-enez-veur"> Participation à La Tro Enez Veur</label>
+                                <label><input type="checkbox" name="interet[]" value="tro-enez-veur"> Participation au Tro Enez Veur</label>
                                 <label><input type="checkbox" name="interet[]" value="benevole"> Bénévolat lors des événements</label>
                             </div>
                         </div>
@@ -173,6 +199,20 @@
                 <div class="footer-info">
                     <p>&copy; 2024 Armor Tri Passion - Association loi 1901</p>
                     <p>Perros-Guirec, Côtes d'Armor (22) - Bretagne</p>
+                </div>
+                <div class="footer-social">
+                    <p class="footer-social-label">Suivez-nous :</p>
+                    <div class="footer-social-links">
+                        <a href="https://facebook.com/asso.armortripassion" target="_blank" rel="noopener" class="footer-social-link facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com/armortripassion" target="_blank" rel="noopener" class="footer-social-link instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:contact@armortripassion.fr" class="footer-social-link email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
                 <div class="footer-links">
                     <a href="#accueil">Accueil</a>
