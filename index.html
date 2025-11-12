@@ -24,6 +24,9 @@
                         <a href="#evenements" class="nav-link">Événements</a>
                     </li>
                     <li class="nav-item">
+                        <a href="#galerie" class="nav-link">Galerie</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
@@ -60,8 +63,15 @@
                 <div class="events-grid">
                     <div class="event-card">
                         <div class="event-header">
-                            <h3>Swim Roz</h3>
-                            <span class="event-status">Nouveau Projet</span>
+                            <div class="event-header-content">
+                                <div class="event-logo">
+                                    <img src="swimroz-logo.jpg" alt="Swim Roz Logo" class="event-logo-img">
+                                </div>
+                                <div class="event-title-section">
+                                    <h3>Swim Roz</h3>
+                                    <span class="event-status">Nouveau Projet</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="event-content">
                             <p><strong>Swimrun</strong> à Perros-Guirec, entre Ploumanach, Trestraou, Trestrignel et le Port de Plaisance.</p>
@@ -91,8 +101,15 @@
 
                     <div class="event-card">
                         <div class="event-header">
-                            <h3>Tro Enez Veur</h3>
-                            <!--<span class="event-status">Nouveau projet</span>-->
+                            <div class="event-header-content">
+                                <div class="event-logo">
+                                    <img src="troenezveur-logo.jpg" alt="Tro Enez Veur Logo" class="event-logo-img">
+                                </div>
+                                <div class="event-title-section">
+                                    <h3>Tro Enez Veur</h3>
+                                    <!--<span class="event-status">Nouveau projet</span>-->
+                                </div>
+                            </div>
                         </div>
                         <div class="event-content">
                             <p><strong>Course Nature</strong> sur la presqu'île de l'Île Grande.</p>
@@ -119,6 +136,77 @@
             </div>
         </section>
 
+        <!-- Section Galerie -->
+        <section id="galerie" class="gallery">
+            <div class="container">
+                <h2>Galerie Photos</h2>
+                <p class="gallery-subtitle">Découvrez l'ambiance de nos événements et la beauté de la Côte de Granit Rose</p>
+                
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">Toutes les photos</button>
+                    <button class="filter-btn" data-filter="swimroz">Swim Roz</button>
+                    <button class="filter-btn" data-filter="troenezveur">Tro Enez Veur</button>
+                    <button class="filter-btn" data-filter="entrainement">Entraînements</button>
+                    <button class="filter-btn" data-filter="paysage">Paysages</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Exemples de photos - remplacez par vos vraies photos -->
+                    <div class="gallery-item" data-category="swimroz">
+                        <img src="photo-swimroz-1.jpg" alt="Swim Roz 2024" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Swim Roz 2024</h4>
+                            <p>Départ depuis Ploumanac'h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="troenezveur">
+                        <img src="photo-tro-1.jpg" alt="Tro Enez Veur Trail" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Tro Enez Veur</h4>
+                            <p>Trail sur l'Île Grande</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="paysage">
+                        <img src="photo-paysage-1.jpg" alt="Côte de Granit Rose" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Côte de Granit Rose</h4>
+                            <p>Notre terrain de jeu exceptionnel</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="entrainement">
+                        <img src="photo-entrainement-1.jpg" alt="Entraînement triathlon" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Entraînements</h4>
+                            <p>Sessions groupe conviviales</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="swimroz">
+                        <img src="photo-swimroz-2.jpg" alt="Swim Roz ambiance" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Swim Roz</h4>
+                            <p>L'esprit d'équipe avant tout</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="paysage">
+                        <img src="photo-paysage-2.jpg" alt="Phare de Mean Ruz" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Phare de Mean Ruz</h4>
+                            <p>Symbole de nos événements</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-note">
+                    <p><em>Photos : Armor Tri Passion & partenaires. Merci aux photographes bénévoles !</em></p>
+                </div>
+            </div>
+        </section>
+
         <!-- Section Contact -->
         <section id="contact" class="contact">
             <div class="container">
@@ -128,7 +216,7 @@
                         <h3>Manifester votre intérêt</h3>
                         <p>Vous souhaitez nous rejoindre ou participer à nos événements ? Nous privilégions un premier échange pour mieux vous connaître et vous présenter notre approche.</p>
                         <div class="contact-details">
-                            <p><strong>Email :</strong> <a href="mailto:armortripassion@gmail.com">armortripassion@gmail.com</a></p>
+                            <p><strong>Email :</strong> <a href="/cdn-cgi/l/email-protection#157467787a6761677c657466667c7a7b557278747c793b767a78"><span class="__cf_email__" data-cfemail="bddccfd0d2cfc9cfd4cddcceced4d2d3fddad0dcd4d193ded2d0">[email&#160;protected]</span></a></p>
                             <p><strong>Localisation :</strong> Perros-Guirec, Côtes d'Armor (22)</p>
                         </div>
                     </div>
@@ -213,6 +301,7 @@
                 <div class="footer-links">
                     <a href="#accueil">Accueil</a>
                     <a href="#evenements">Événements</a>
+                    <a href="#galerie">Galerie</a>
                     <a href="#contact">Contact</a>
                 </div>
             </div>
