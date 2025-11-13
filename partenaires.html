@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partenariat Armor Tri Passion</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a; /* Bleu foncé ATP */
+            --secondary-color: #06b6d4; /* Cyan ATP */
+            --accent-color: #3b82f6; /* Bleu moyen ATP */
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --background: #f8fafc;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--background);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation bar matching main site */
+        .navbar {
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--secondary-color);
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: var(--white);
+            padding: 140px 0 60px;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section {
+            padding: 60px 0;
+            background: var(--white);
+        }
+
+        .section:nth-child(even) {
+            background: var(--background);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-size: 2.2em;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .section-title p {
+            font-size: 1.1em;
+            color: var(--text-light);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .card-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: var(--white);
+        }
+
+        .card h3 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            color: var(--text-dark);
+        }
+
+        .card p {
+            color: var(--text-light);
+        }
+
+        .stats-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: var(--white);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .packages-section {
+            background: var(--white);
+        }
+
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .package-card {
+            background: var(--white);
+            border: 3px solid #e0e0e0;
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .package-card.featured {
+            border-color: var(--secondary-color);
+            transform: scale(1.05);
+        }
+
+        .package-card.featured::before {
+            content: "RECOMMANDÉ";
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--secondary-color);
+            color: var(--white);
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        .package-title {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+
+        .package-price {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+        }
+
+        .package-price span {
+            font-size: 0.4em;
+            color: var(--text-light);
+        }
+
+        .package-features {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        .package-features li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .package-features li:before {
+            content: "✓";
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .cta-button {
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            color: var(--white);
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(6, 182, 212, 0.3);
+        }
+
+        .contact-section {
+            background: var(--text-dark);
+            color: var(--white);
+            text-align: center;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .contact-item h4 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .header {
+                padding: 120px 0 60px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .section-title h2 {
+                font-size: 1.8em;
+            }
+            
+            .package-card.featured {
+                transform: none;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="ATP-Logo-wText-100.jpg" alt="Armor Tri Passion">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#evenements">Événements</a></li>
+                <li><a href="index.html#galerie">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <h1>Devenez Partenaire d'Armor Tri Passion</h1>
+            <p>Associez-vous à une communauté d'athlètes passionnés et engagés sur la Côte de Granit Rose</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Une Communauté d'Athlètes à Fort Pouvoir d'Achat</h2>
+                <p>Nos membres représentent une cible premium : actifs, soucieux de leur santé, et consommateurs réguliers d'équipements et services sportifs</p>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">👥</div>
+                    <h3>Profil Membres</h3>
+                    <p>Communauté mixte : étudiants, jeunes actifs, cadres. Âge 18-55 ans. 25 membres actuels, 40 prévus fin 2026. Investissement annuel moyen 1500€ en équipement sportif.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Engagement Élevé</h3>
+                    <p>Participation régulière aux entraînements, fidélité à la marque, influence sur leur entourage. Ambassadeurs naturels de vos produits et services.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌍</div>
+                    <h3>Rayonnement Territorial</h3>
+                    <p>Membres actifs dans tout le Trégor. Participation à des événements régionaux et nationaux, augmentant la visibilité de vos marques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section stats-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Des Chiffres qui Parlent</h2>
+                <p>L'association en pleine croissance offre une visibilité croissante à nos partenaires</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">25+</span>
+                    <span class="stat-label">Membres actifs actuels</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">40</span>
+                    <span class="stat-label">Objectif fin 2026</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Sessions d'entraînement/an</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">Visiteurs/mois sur nos réseaux</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">66k</span>
+                    <span class="stat-label">Licenciés triathlon France</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Avantages de Nos Partenariats</h2>
+                <p>Des solutions gagnant-gagnant pour développer votre business local</p>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">📈</div>
+                    <h3>Fidélisation Client</h3>
+                    <p>Offrez des avantages exclusifs aux membres pour créer un lien de fidélité durable et différencier votre offre de la concurrence.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Nouveau Segment</h3>
+                    <p>Accédez à une clientèle sportive haut de gamme difficile à atteindre par les canaux traditionnels.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📱</div>
+                    <h3>Communication Ciblée</h3>
+                    <p>Bénéficiez de notre communication digitale et de notre réseau pour promouvoir vos produits auprès d'une audience qualifiée.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏆</div>
+                    <h3>Image de Marque</h3>
+                    <p>Associez votre entreprise aux valeurs du sport : dépassement de soi, persévérance, excellence, bien-être.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>ROI Mesurable</h3>
+                    <p>Suivez l'utilisation des avantages membres et mesurez concrètement le retour sur votre investissement partenariat.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌟</div>
+                    <h3>Événements Exclusifs</h3>
+                    <p>Profitez de nos événements (Tro Enez Veur, stages, compétitions) pour organiser des opérations marketing ciblées.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section packages-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Formules de Partenariat</h2>
+                <p>Choisissez la formule qui correspond à vos objectifs et à votre budget</p>
+            </div>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <h3 class="package-title">BRONZE</h3>
+                    <div class="package-price">300€<span>/an</span></div>
+                    <ul class="package-features">
+                        <li>Logo sur site web</li>
+                        <li>5% de réduction membres</li>
+                        <li>Mention réseaux sociaux</li>
+                        <li>Communication WhatsApp groupe</li>
+                        <li>Suivi trimestriel ROI</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Je démarre</a>
+                </div>
+
+                <div class="package-card featured">
+                    <h3 class="package-title">ARGENT</h3>
+                    <div class="package-price">750€<span>/an</span></div>
+                    <ul class="package-features">
+                        <li>Tout le package Bronze</li>
+                        <li>10% de réduction membres</li>
+                        <li>Logo sur équipements événements</li>
+                        <li>Post sponsorisé réseaux sociaux</li>
+                        <li>Stand événements association</li>
+                        <li>Newsletter membres (2/an)</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Le plus choisi</a>
+                </div>
+
+                <div class="package-card">
+                    <h3 class="package-title">OR</h3>
+                    <div class="package-price">1500€<span>/an</span></div>
+                    <ul class="package-features">
+                        <li>Tout le package Argent</li>
+                        <li>15% de réduction membres</li>
+                        <li>Partenaire officiel nommé</li>
+                        <li>Présence événement Tro Enez Veur</li>
+                        <li>Article blog mensuel</li>
+                        <li>Opération marketing dédiée</li>
+                        <li>Rencontre trimestrielle</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Formule Premium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ils Nous Font Déjà Confiance</h2>
+                <p>Rejoignez les entreprises qui soutiennent le développement du triathlon sur la Côte de Granit Rose</p>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>🏪 Commerce de Proximité</h3>
+                    <p>"Une communauté engagée et en pleine croissance. L'approche qualitative d'Armor Tri Passion nous apporte une vraie valeur ajoutée."</p>
+                </div>
+                <div class="card">
+                    <h3>🚴 Partenaire Local</h3>
+                    <p>"Des membres passionnés et fidèles. Une association sérieuse avec un bel avenir sur la Côte de Granit Rose."</p>
+                </div>
+                <div class="card">
+                    <h3>🏥 Professionnel Santé</h3>
+                    <p>"Une clientèle sérieuse et préventive. L'association nous amène une patientèle de qualité."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Démarrons Notre Partenariat</h2>
+                <p>Contactez-nous pour discuter de vos objectifs et construire ensemble un partenariat sur-mesure</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>📧 Email</h4>
+                    <p>armortripassion@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <h4>📱 Anne Hardy</h4>
+                    <p>Présidente<br>Entrepreneuse & Coach Fitness</p>
+                </div>
+                <div class="contact-item">
+                    <h4>📍 Secteur</h4>
+                    <p>Côte de Granit Rose<br>Trégor - Côtes d'Armor</p>
+                </div>
+                <div class="contact-item">
+                    <h4>⚡ Réponse</h4>
+                    <p>Sous 48h<br>Rendez-vous possible</p>
+                </div>
+            </div>
+            <div style="margin-top: 40px;">
+                <a href="mailto:armortripassion@gmail.com?subject=Demande de partenariat&body=Bonjour Anne,%0A%0AJe suis intéressé(e) par un partenariat avec Armor Tri Passion.%0A%0AEntreprise : %0ASecteur : %0AFormule souhaitée : %0A%0AMerci de me contacter pour en discuter.%0A%0ACordialement" class="cta-button">Nous Contacter Maintenant</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
