@@ -323,6 +323,20 @@ body {
     padding-top: 1rem;
 }
 
+.event-actions {
+    padding: 1rem 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.event-actions .cta-button {
+    font-size: 1rem;
+    padding: 12px 25px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .event-date {
     font-weight: 600;
     color: var(--primary-blue);
