@@ -354,6 +354,123 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        /* Section Partenaires Existants */
+        .existing-partners-section {
+            background: linear-gradient(135deg, #f8f9ff, #e8f4f8);
+            padding: 80px 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .partners-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .partner-item {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .partner-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .partner-item.future-partner {
+            border: 2px dashed var(--accent-cyan);
+            background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+        }
+
+        .partner-item.future-partner:hover {
+            border-color: var(--primary-blue);
+            background: linear-gradient(135deg, #e0f2fe, #bae6fd);
+        }
+
+        .partner-logo {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .partner-logo img {
+            max-height: 100%;
+            max-width: 180px;
+            object-fit: contain;
+        }
+
+        .logo-placeholder {
+            width: 80px;
+            height: 80px;
+            border: 2px dashed var(--accent-cyan);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            background: rgba(6, 182, 212, 0.1);
+        }
+
+        .logo-placeholder span {
+            font-size: 2rem;
+            color: var(--accent-cyan);
+            font-weight: bold;
+        }
+
+        .partner-info h4 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .partner-category {
+            font-size: 0.9rem;
+            color: var(--accent-cyan);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.75rem;
+        }
+
+        .partner-description {
+            font-size: 0.95rem;
+            color: var(--text-gray);
+            line-height: 1.5;
+        }
+
+        .future-partner .partner-info h4 {
+            color: var(--primary-blue);
+        }
+
+        @media (max-width: 768px) {
+            .existing-partners-section {
+                padding: 60px 0;
+            }
+
+            .partners-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+                margin-top: 2rem;
+            }
+
+            .partner-item {
+                padding: 1.5rem;
+            }
+
+            .partner-logo {
+                height: 60px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -379,6 +496,68 @@
             <p>Associez-vous à une communauté d'athlètes passionnés et engagés sur la Côte de Granit Rose</p>
         </div>
     </header>
+
+    <!-- Section Partenaires Existants -->
+    <section class="existing-partners-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>🤝 Ils nous font déjà confiance</h2>
+                <p>Nos partenaires actuels qui accompagnent le développement d'Armor Tri Passion</p>
+            </div>
+            
+            <div class="partners-grid">
+                <!-- Tonton Outdoor -->
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <img src="logo-tonton-outdoor.png" alt="Tonton Outdoor" loading="lazy">
+                    </div>
+                    <div class="partner-info">
+                        <h4>Tonton Outdoor</h4>
+                        <p class="partner-category">Événements Mer</p>
+                        <p class="partner-description">Partenaire privilégié pour nos événements aquatiques</p>
+                    </div>
+                </div>
+
+                <!-- Run Aventure Lannion -->
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <img src="logo-run-aventure-lannion.png" alt="Run Aventure Lannion" loading="lazy">
+                    </div>
+                    <div class="partner-info">
+                        <h4>Run Aventure Lannion</h4>
+                        <p class="partner-category">Running & Nature</p>
+                        <p class="partner-description">Expert trail et course nature sur le Trégor</p>
+                    </div>
+                </div>
+
+                <!-- Cuisines Schmidt -->
+                <div class="partner-item">
+                    <div class="partner-logo">
+                        <img src="logo-cuisines-schmidt.png" alt="Cuisines Schmidt - C. Le Peuch" loading="lazy">
+                    </div>
+                    <div class="partner-info">
+                        <h4>Cuisines Schmidt</h4>
+                        <p class="partner-category">Habitat & Lifestyle</p>
+                        <p class="partner-description">C. Le Peuch - Aménagement et qualité de vie</p>
+                    </div>
+                </div>
+
+                <!-- Placeholder pour futurs partenaires -->
+                <div class="partner-item future-partner">
+                    <div class="partner-logo placeholder">
+                        <div class="logo-placeholder">
+                            <span>+</span>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h4>Rejoignez-nous !</h4>
+                        <p class="partner-category">Votre secteur</p>
+                        <p class="partner-description">Devenez partenaire d'une communauté passionnée</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="section">
         <div class="container">
@@ -562,7 +741,7 @@
             <div class="contact-info">
                 <div class="contact-item">
                     <h4>📧 Email</h4>
-                    <p><a href="/cdn-cgi/l/email-protection#bcddced1d3cec8ced5ccddcfcfd5d3d2fcdbd1ddd5d092dfd3d1"><span class="__cf_email__" data-cfemail="badbc8d7d5c8cec8d3cadbc9c9d3d5d4faddd7dbd3d694d9d5d7">[email&#160;protected]</span></a></p>
+                    <p><a href="/cdn-cgi/l/email-protection#2140534c4e5355534851405252484e4f61464c40484d0f424e4c"><span class="__cf_email__" data-cfemail="caabb8a7a5b8beb8a3baabb9b9a3a5a48aada7aba3a6e4a9a5a7">[email&#160;protected]</span></a></p>
                 </div>
                 <div class="contact-item">
                     <h4>📱 Anne Hardy</h4>
@@ -578,4 +757,4 @@
                 </div>
             </div>
             <div style="margin-top: 40px;">
-                <a href="/cdn-cgi/l/email-protection#147566797b6660667d647567677d7b7a547379757d783a777b792b6761767e71776029507179757a70713
+                <a href="/cdn-cgi/l/email-protection#c8a9baa5a7babcbaa1b8a9bbbba1a7a688afa5a9a1a4e6aba7a5" style="background: var(--accent-cyan); color: white; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight:
