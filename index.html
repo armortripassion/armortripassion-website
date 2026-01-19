@@ -268,53 +268,220 @@
                     </div>
                     
                     <form class="contact-form" id="contactForm">
-                        <h4>Formulaire de contact</h4>
-                        <div class="form-group">
-                            <label for="nom">Nom *</label>
-                            <input type="text" id="nom" name="nom" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email *</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="telephone">Téléphone</label>
-                            <input type="tel" id="telephone" name="telephone">
-                        </div>
-                        <div class="form-group">
-                            <label for="niveau">Votre niveau en triathlon</label>
-                            <select id="niveau" name="niveau">
-                                <option value="">Sélectionnez...</option>
-                                <option value="debutant">Débutant</option>
-                                <option value="occasionnel">Pratiquant occasionnel</option>
-                                <option value="regulier">Pratiquant régulier</option>
-                                <option value="confirme">Confirmé/compétiteur</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="interet">Vous êtes intéressé par :</label>
-                            <div class="checkbox-group">
-                                <label><input type="checkbox" name="interet[]" value="adhesion"> Adhésion à l'association</label>
-                                <label><input type="checkbox" name="interet[]" value="fit-roz"> Participation à la Fit Roz</label>
-                                <label><input type="checkbox" name="interet[]" value="swim-roz"> Participation à La Swim Roz</label>
-                                <label><input type="checkbox" name="interet[]" value="tro-enez-veur"> Participation au Tro Enez Veur</label>
-                                <label><input type="checkbox" name="interet[]" value="benevole"> Bénévolat lors des événements</label>
+                        <h4>Nous aimerions mieux vous connaître</h4>
+                        
+                        <!-- Informations de base -->
+                        <div class="form-section">
+                            <div class="form-group">
+                                <label for="nom">Nom et prénom *</label>
+                                <input type="text" id="nom" name="nom" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone">Téléphone *</label>
+                                <input type="tel" id="telephone" name="telephone" required>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="disponibilite">Vos disponibilités (jours/horaires préférés pour la pratique)</label>
-                            <textarea id="disponibilite" name="disponibilite" rows="3"></textarea>
+
+                        <!-- Question filtrage principale -->
+                        <div class="form-section">
+                            <div class="form-group">
+                                <label for="intention">Quelle est votre demande principale ? *</label>
+                                <select id="intention" name="intention" required onchange="toggleFormSections()">
+                                    <option value="">Sélectionnez votre demande...</option>
+                                    <option value="adhesion">Je souhaite adhérer à l'association</option>
+                                    <option value="evenement">Je veux participer à un événement uniquement</option>
+                                    <option value="question">J'ai une question / Demande d'information</option>
+                                    <option value="partenariat">Demande de partenariat</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="motivation">Parlez-nous de votre motivation</label>
-                            <textarea id="motivation" name="motivation" rows="4" placeholder="Qu'est-ce qui vous attire dans le triathlon ? Quels sont vos objectifs ?"></textarea>
+
+                        <!-- Section ADHÉSION (cachée par défaut) -->
+                        <div id="section-adhesion" class="form-section conditional-section" style="display: none;">
+                            <h5>🏃‍♂️ Votre profil sportif</h5>
+                            
+                            <div class="form-group">
+                                <label for="niveau-global">Votre niveau sportif général *</label>
+                                <select id="niveau-global" name="niveau-global">
+                                    <option value="">Sélectionnez...</option>
+                                    <option value="debutant">Débutant (je débute dans le sport)</option>
+                                    <option value="occasionnel">Occasionnel (1-2 fois/semaine)</option>
+                                    <option value="regulier">Régulier (3-4 fois/semaine)</option>
+                                    <option value="intensif">Intensif (5+ fois/semaine)</option>
+                                    <option value="competiteur">Compétiteur confirmé</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="disciplines-actuelles">Quelles disciplines pratiquez-vous actuellement ? *</label>
+                                <div class="checkbox-group">
+                                    <label><input type="checkbox" name="disciplines[]" value="natation"> Natation</label>
+                                    <label><input type="checkbox" name="disciplines[]" value="course"> Course à pied</label>
+                                    <label><input type="checkbox" name="disciplines[]" value="velo"> Vélo</label>
+                                    <label><input type="checkbox" name="disciplines[]" value="triathlon"> Triathlon</label>
+                                    <label><input type="checkbox" name="disciplines[]" value="trail"> Trail</label>
+                                    <label><input type="checkbox" name="disciplines[]" value="fitness"> Fitness/Musculation</label>
+                                    <label><input type="checkbox" name="disciplines[]" value="autre"> Autre sport</label>
+                                    <label><input type="checkbox" name="disciplines[]" value="aucune"> Aucune activité régulière</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="discipline-prefere">Quelle discipline vous attire le PLUS dans le triathlon ?</label>
+                                <select id="discipline-prefere" name="discipline-prefere">
+                                    <option value="">Je ne sais pas encore</option>
+                                    <option value="natation">Natation</option>
+                                    <option value="course">Course à pied</option>
+                                    <option value="velo">Vélo</option>
+                                    <option value="enchainements">Les enchaînements</option>
+                                    <option value="tout">Tout m'intéresse autant</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="objectifs">Quels sont vos objectifs avec le triathlon ? *</label>
+                                <div class="checkbox-group">
+                                    <option-group>
+                                        <label><input type="checkbox" name="objectifs[]" value="decouverte"> Découvrir le triathlon</label>
+                                        <label><input type="checkbox" name="objectifs[]" value="forme"> Améliorer ma forme physique</label>
+                                        <label><input type="checkbox" name="objectifs[]" value="social"> Rencontrer des personnes avec la même passion</label>
+                                        <label><input type="checkbox" name="objectifs[]" value="competition"> Faire des compétitions</label>
+                                        <label><input type="checkbox" name="objectifs[]" value="performance"> Améliorer mes performances</label>
+                                        <label><input type="checkbox" name="objectifs[]" value="plaisir"> Pratiquer pour le plaisir</label>
+                                        <label><input type="checkbox" name="objectifs[]" value="defi"> Me lancer un défi personnel</label>
+                                    </option-group>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="disponibilites-detail">Vos disponibilités pour les entraînements *</label>
+                                <div class="checkbox-group">
+                                    <label><input type="checkbox" name="disponibilites[]" value="semaine-matin"> Semaine - Matin (avant 9h)</label>
+                                    <label><input type="checkbox" name="disponibilites[]" value="semaine-midi"> Semaine - Midi (12h-14h)</label>
+                                    <label><input type="checkbox" name="disponibilites[]" value="semaine-soir"> Semaine - Soir (après 18h)</label>
+                                    <label><input type="checkbox" name="disponibilites[]" value="samedi-matin"> Samedi matin</label>
+                                    <label><input type="checkbox" name="disponibilites[]" value="samedi-aprem"> Samedi après-midi</label>
+                                    <label><input type="checkbox" name="disponibilites[]" value="dimanche-matin"> Dimanche matin</label>
+                                    <label><input type="checkbox" name="disponibilites[]" value="dimanche-aprem"> Dimanche après-midi</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="frequence-souhaitee">Combien de fois par semaine souhaiteriez-vous vous entraîner ?</label>
+                                <select id="frequence-souhaitee" name="frequence-souhaitee">
+                                    <option value="">Je ne sais pas</option>
+                                    <option value="1">1 fois par semaine</option>
+                                    <option value="2">2 fois par semaine</option>
+                                    <option value="3">3 fois par semaine</option>
+                                    <option value="4+">4 fois ou plus</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="motivation-adhesion">Qu'est-ce qui vous attire chez Armor Tri Passion ? *</label>
+                                <textarea id="motivation-adhesion" name="motivation-adhesion" rows="4" placeholder="Ex: l'ambiance conviviale, l'accompagnement personnalisé, la découverte du triathlon, les événements locaux..."></textarea>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="message">Message libre</label>
-                            <textarea id="message" name="message" rows="3"></textarea>
+
+                        <!-- Section ÉVÉNEMENT (cachée par défaut) -->
+                        <div id="section-evenement" class="form-section conditional-section" style="display: none;">
+                            <h5>🏃‍♂️ Quel événement vous intéresse ?</h5>
+                            
+                            <div class="form-group">
+                                <label for="evenements-interesse">Événements qui vous intéressent *</label>
+                                <div class="checkbox-group">
+                                    <label><input type="checkbox" name="evenements[]" value="fit-roz"> Fit Roz (28 février 2026) - Fitness Race</label>
+                                    <label><input type="checkbox" name="evenements[]" value="swim-roz"> Swim Roz (11 octobre 2026) - Swimrun</label>
+                                    <label><input type="checkbox" name="evenements[]" value="tro-enez-veur"> Tro Enez Veur (4 octobre 2026) - Trail</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="niveau-evenement">Votre niveau dans cette discipline</label>
+                                <select id="niveau-evenement" name="niveau-evenement">
+                                    <option value="">Sélectionnez...</option>
+                                    <option value="debutant">Débutant - Première expérience</option>
+                                    <option value="occasionnel">Occasionnel - Quelques expériences</option>
+                                    <option value="regulier">Régulier - Je pratique souvent</option>
+                                    <option value="experimente">Expérimenté - Habitué des compétitions</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="questions-evenement">Vos questions sur l'événement</label>
+                                <textarea id="questions-evenement" name="questions-evenement" rows="4" placeholder="Ex: niveau requis, matériel nécessaire, déroulement de la course, tarifs..."></textarea>
+                            </div>
                         </div>
+
+                        <!-- Section QUESTION (cachée par défaut) -->
+                        <div id="section-question" class="form-section conditional-section" style="display: none;">
+                            <h5>💬 Votre question</h5>
+                            
+                            <div class="form-group">
+                                <label for="type-question">Type de demande</label>
+                                <select id="type-question" name="type-question">
+                                    <option value="">Sélectionnez...</option>
+                                    <option value="info-general">Informations générales sur l'association</option>
+                                    <option value="info-entrainement">Informations sur les entraînements</option>
+                                    <option value="info-evenement">Informations sur les événements</option>
+                                    <option value="tarifs">Questions sur les tarifs</option>
+                                    <option value="materiel">Conseils matériel</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message-question">Votre question *</label>
+                                <textarea id="message-question" name="message-question" rows="5" placeholder="Posez-nous votre question en détail..." required></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Section PARTENARIAT (cachée par défaut) -->
+                        <div id="section-partenariat" class="form-section conditional-section" style="display: none;">
+                            <h5>🤝 Demande de partenariat</h5>
+                            
+                            <div class="form-group">
+                                <label for="entreprise">Nom de votre entreprise *</label>
+                                <input type="text" id="entreprise" name="entreprise">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="secteur">Secteur d'activité</label>
+                                <input type="text" id="secteur" name="secteur" placeholder="Ex: Commerce, Services, Sport, Santé...">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="type-partenariat">Type de partenariat souhaité</label>
+                                <select id="type-partenariat" name="type-partenariat">
+                                    <option value="">Sélectionnez...</option>
+                                    <option value="bronze">Partenaire Bronze (300€/an)</option>
+                                    <option value="argent">Partenaire Argent (750€/an)</option>
+                                    <option value="or">Partenaire Or (1500€/an)</option>
+                                    <option value="sur-mesure">Partenariat sur-mesure</option>
+                                    <option value="evenementiel">Partenariat événementiel uniquement</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message-partenariat">Votre demande</label>
+                                <textarea id="message-partenariat" name="message-partenariat" rows="4" placeholder="Décrivez votre projet de partenariat..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Message libre pour tous -->
+                        <div class="form-section">
+                            <div class="form-group">
+                                <label for="message-libre">Informations complémentaires</label>
+                                <textarea id="message-libre" name="message-libre" rows="3" placeholder="Ajoutez tout ce qui vous semble important..."></textarea>
+                            </div>
+                        </div>
+
                         <button type="submit" class="submit-button">Envoyer ma demande</button>
-                        <p class="form-note">* Champs obligatoires. Nous vous recontacterons dans les plus brefs délais.</p>
+                        <p class="form-note">* Champs obligatoires. Nous vous recontacterons dans les 48h maximum.</p>
                     </form>
                 </div>
             </div>
@@ -355,11 +522,4 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Armor Tri Passion - Association Loi 1901 - RNA : W222009541</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+  

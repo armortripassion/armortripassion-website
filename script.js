@@ -266,3 +266,106 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     document.head.appendChild(style);
 });
+
+// Formulaire de contact intelligent
+function toggleFormSections() {
+    const intention = document.getElementById('intention').value;
+    const sections = {
+        'adhesion': document.getElementById('section-adhesion'),
+        'evenement': document.getElementById('section-evenement'), 
+        'question': document.getElementById('section-question'),
+        'partenariat': document.getElementById('section-partenariat')
+    };
+    
+    // Cacher toutes les sections
+    Object.values(sections).forEach(section => {
+        if (section) section.style.display = 'none';
+    });
+    
+    // Afficher la section correspondante
+    if (sections[intention]) {
+        sections[intention].style.display = 'block';
+        
+        // Faire défiler vers la section qui vient d'apparaître
+        setTimeout(() => {
+            sections[intention].scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'nearest' 
+            });
+        }, 100);
+    }
+    
+    // Gérer les champs obligatoires conditionnels
+    updateRequiredFields(intention);
+}
+
+function updateRequiredFields(intention) {
+    // Retirer tous les required conditionnels
+    document.querySelectorAll('[data-conditional-required]').forEach(field => {
+        field.removeAttribute('required');
+    });
+    
+    // Ajouter les required selon l'intention
+    switch(intention) {
+        case 'adhesion':
+            document.getElementById('niveau-global').setAttribute('required', '');
+            document.getElementById('motivation-adhesion').setAttribute('required', '');
+            break;
+        case 'question':
+            document.getElementById('message-question').setAttribute('required', '');
+            break;
+        case 'partenariat':
+            document.getElementById('entreprise').setAttribute('required', '');
+            break;
+    }
+}
+
+// Validation personnalisée du formulaire
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            const intention = document.getElementById('intention').value;
+            
+            if (!intention) {
+                e.preventDefault();
+                alert('Veuillez sélectionner le type de votre demande.');
+                return false;
+            }
+            
+            // Validation spécifique selon l'intention
+            if (intention === 'adhesion') {
+                const disciplinesChecked = document.querySelectorAll('input[name="disciplines[]"]:checked');
+                const objectifsChecked = document.querySelectorAll('input[name="objectifs[]"]:checked');
+                const disponibilitesChecked = document.querySelectorAll('input[name="disponibilites[]"]:checked');
+                
+                if (disciplinesChecked.length === 0) {
+                    e.preventDefault();
+                    alert('Veuillez sélectionner au moins une discipline que vous pratiquez.');
+                    return false;
+                }
+                
+                if (objectifsChecked.length === 0) {
+                    e.preventDefault();
+                    alert('Veuillez sélectionner au moins un objectif.');
+                    return false;
+                }
+                
+                if (disponibilitesChecked.length === 0) {
+                    e.preventDefault();
+                    alert('Veuillez indiquer vos disponibilités.');
+                    return false;
+                }
+            }
+            
+            if (intention === 'evenement') {
+                const evenementsChecked = document.querySelectorAll('input[name="evenements[]"]:checked');
+                if (evenementsChecked.length === 0) {
+                    e.preventDefault();
+                    alert('Veuillez sélectionner au moins un événement qui vous intéresse.');
+                    return false;
+                }
+            }
+        });
+    }
+});
