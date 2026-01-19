@@ -146,16 +146,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // FONCTION GLOBALE pour le formulaire intelligent
 function toggleFormSections() {
+    alert('Function called!'); // TEST - to confirm function is triggered
     console.log('toggleFormSections appelée');
     
     const intention = document.getElementById('intention');
     if (!intention) {
         console.log('Élément intention non trouvé');
+        alert('Élément intention non trouvé!');
         return;
     }
     
     const intentionValue = intention.value;
     console.log('Intention sélectionnée:', intentionValue);
+    alert('Intention: ' + intentionValue); // TEST
     
     const sections = {
         'adhesion': document.getElementById('section-adhesion'),
@@ -176,6 +179,7 @@ function toggleFormSections() {
     if (sections[intentionValue]) {
         sections[intentionValue].style.display = 'block';
         console.log('Section affichée:', sections[intentionValue].id);
+        alert('Section affichée: ' + sections[intentionValue].id); // TEST
         
         // Faire défiler vers la section qui vient d'apparaître
         setTimeout(() => {
