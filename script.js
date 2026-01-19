@@ -69,6 +69,18 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Validation du formulaire intelligent
     const contactForm = document.getElementById('contactForm');
+    const intentionSelect = document.getElementById('intention');
+    
+    // Attacher l'événement change au select intention
+    if (intentionSelect) {
+        intentionSelect.addEventListener('change', function() {
+            alert('Event listener triggered!'); // TEST
+            toggleFormSections();
+        });
+    } else {
+        console.log('Select intention non trouvé');
+    }
+    
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             const intentionElement = document.getElementById('intention');
@@ -144,80 +156,45 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.appendChild(style);
 });
 
-// FONCTION GLOBALE pour le formulaire intelligent
+// FONCTION pour le formulaire intelligent
 function toggleFormSections() {
-    alert('Function called!'); // TEST - to confirm function is triggered
-    console.log('toggleFormSections appelée');
-    
     const intention = document.getElementById('intention');
     if (!intention) {
         console.log('Élément intention non trouvé');
-        alert('Élément intention non trouvé!');
         return;
     }
     
     const intentionValue = intention.value;
     console.log('Intention sélectionnée:', intentionValue);
-    alert('Intention: ' + intentionValue); // TEST
     
-    const sections = {
-        'adhesion': document.getElementById('section-adhesion'),
-        'evenement': document.getElementById('section-evenement'), 
-        'question': document.getElementById('section-question'),
-        'partenariat': document.getElementById('section-partenariat')
-    };
+    // Récupérer toutes les sections
+    const sections = document.querySelectorAll('.conditional-section');
     
     // Cacher toutes les sections
-    Object.values(sections).forEach(section => {
-        if (section) {
-            section.style.display = 'none';
-            console.log('Section cachée:', section.id);
-        }
+    sections.forEach(section => {
+        section.style.display = 'none';
     });
     
     // Afficher la section correspondante
-    if (sections[intentionValue]) {
-        sections[intentionValue].style.display = 'block';
-        console.log('Section affichée:', sections[intentionValue].id);
-        alert('Section affichée: ' + sections[intentionValue].id); // TEST
-        
-        // Faire défiler vers la section qui vient d'apparaître
-        setTimeout(() => {
-            sections[intentionValue].scrollIntoView({ 
-                behavior: 'smooth', 
-                block: 'nearest' 
-            });
-        }, 100);
+    if (intentionValue) {
+        const targetSection = document.getElementById('section-' + intentionValue);
+        if (targetSection) {
+            targetSection.style.display = 'block';
+            console.log('Section affichée:', targetSection.id);
+            
+            // Scroll vers la section
+            setTimeout(() => {
+                targetSection.scrollIntoView({ 
+                    behavior: 'smooth', 
+                    block: 'nearest' 
+                });
+            }, 100);
+        }
     }
-    
-    // Gérer les champs obligatoires conditionnels
-    updateRequiredFields(intentionValue);
 }
 
 function updateRequiredFields(intention) {
-    // Retirer tous les required conditionnels
-    document.querySelectorAll('[data-conditional-required]').forEach(field => {
-        field.removeAttribute('required');
-    });
-    
-    // Ajouter les required selon l'intention
-    switch(intention) {
-        case 'adhesion':
-            const niveauGlobal = document.getElementById('niveau-global');
-            const motivationAdhesion = document.getElementById('motivation-adhesion');
-            if (niveauGlobal) niveauGlobal.setAttribute('required', '');
-            if (motivationAdhesion) motivationAdhesion.setAttribute('required', '');
-            console.log('Champs obligatoires ajoutés pour adhésion');
-            break;
-        case 'question':
-            const messageQuestion = document.getElementById('message-question');
-            if (messageQuestion) messageQuestion.setAttribute('required', '');
-            console.log('Champs obligatoires ajoutés pour question');
-            break;
-        case 'partenariat':
-            const entreprise = document.getElementById('entreprise');
-            if (entreprise) entreprise.setAttribute('required', '');
-            console.log('Champs obligatoires ajoutés pour partenariat');
-            break;
-    }
+    // Fonction simplifiée pour les champs obligatoires conditionnels
+    // À implémenter selon les besoins spécifiques
+    console.log('Updating required fields for:', intention);
 }
