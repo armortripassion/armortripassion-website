@@ -74,7 +74,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Attacher l'événement change au select intention
     if (intentionSelect) {
         intentionSelect.addEventListener('change', function() {
-            alert('Event listener triggered!'); // TEST
             toggleFormSections();
         });
     } else {
