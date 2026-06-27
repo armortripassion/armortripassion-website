@@ -1,199 +1,161 @@
-// Navigation mobile et fonctionnalités générales
-document.addEventListener('DOMContentLoaded', function() {
-    // Navigation hamburger
-    const hamburger = document.querySelector('.hamburger');
-    const navMenu = document.querySelector('.nav-menu');
+/* Armor Tri Passion — interactions */
+document.addEventListener('DOMContentLoaded', function () {
 
+    /* ---- Navbar : solidification au scroll ---- */
+    const navbar = document.getElementById('navbar');
+    if (navbar) {
+        const onScroll = () => {
+            if (window.scrollY > 40) {
+                navbar.classList.add('scrolled');
+                navbar.classList.remove('navbar--transparent');
+            } else {
+                navbar.classList.remove('scrolled');
+                if (navbar.dataset.transparent !== 'false') {
+                    navbar.classList.add('navbar--transparent');
+                }
+            }
+        };
+        // Mémorise si la navbar démarre transparente (pages avec hero)
+        navbar.dataset.transparent = navbar.classList.contains('navbar--transparent') ? 'true' : 'false';
+        onScroll();
+        window.addEventListener('scroll', onScroll, { passive: true });
+    }
+
+    /* ---- Menu mobile ---- */
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
     if (hamburger && navMenu) {
         hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
+            const open = navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active', open);
+            hamburger.setAttribute('aria-expanded', String(open));
         });
-
-        // Fermer le menu mobile quand on clique sur un lien
-        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
-            hamburger.classList.remove('active');
+        navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
             navMenu.classList.remove('active');
+            hamburger.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', 'false');
         }));
     }
 
-    // Scroll fluide pour les ancres
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
+    /* ---- Anti-spam : reconstruit les emails au clic ---- */
+    document.querySelectorAll('.email-link').forEach(el => {
+        const user = el.dataset.user;
+        const domain = el.dataset.domain;
+        if (!user || !domain) return;
+        const address = user + '@' + domain;
+        el.addEventListener('click', function (e) {
             e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                const offsetTop = target.offsetTop - 70; // Compensation pour la navbar fixe
-                window.scrollTo({
-                    top: offsetTop,
-                    behavior: 'smooth'
-                });
-            }
-        });
+            window.location.href = 'mailto:' + address;
+        }, { once: false });
+        el.textContent = address;
+        el.setAttribute('href', 'mailto:' + address);
     });
 
-    // Filtres de galerie
+    /* ---- Filtres galerie ---- */
     const filterButtons = document.querySelectorAll('.filter-btn');
     const galleryItems = document.querySelectorAll('.gallery-item');
-    
-    if (filterButtons.length > 0 && galleryItems.length > 0) {
-        console.log('Filtres galerie initialisés:', filterButtons.length, 'boutons et', galleryItems.length, 'items');
-        
-        filterButtons.forEach(button => {
-            button.addEventListener('click', (e) => {
-                e.preventDefault();
-                console.log('Filtre cliqué:', button.getAttribute('data-filter'));
-                
-                // Enlever la classe active de tous les boutons
-                filterButtons.forEach(btn => btn.classList.remove('active'));
-                // Ajouter la classe active au bouton cliqué
-                button.classList.add('active');
-                
-                const filter = button.getAttribute('data-filter');
-                
-                galleryItems.forEach(item => {
-                    const category = item.getAttribute('data-category');
-                    
-                    if (filter === 'all' || category === filter) {
-                        item.style.display = 'block';
-                        item.style.animation = 'fadeIn 0.5s ease';
-                    } else {
-                        item.style.display = 'none';
-                    }
-                });
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            filterButtons.forEach(b => b.classList.remove('active'));
+            button.classList.add('active');
+            const filter = button.dataset.filter;
+            galleryItems.forEach(item => {
+                const show = filter === 'all' || item.dataset.category === filter;
+                item.style.display = show ? '' : 'none';
             });
         });
-    } else {
-        console.log('Aucun filtre de galerie trouvé');
-    }
-    
-    // Validation du formulaire intelligent
-    const contactForm = document.getElementById('contactForm');
-    const intentionSelect = document.getElementById('intention');
-    
-    // Attacher l'événement change au select intention
-    if (intentionSelect) {
-        intentionSelect.addEventListener('change', function() {
-            toggleFormSections();
-        });
-    } else {
-        console.log('Select intention non trouvé');
-    }
-    
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            const intentionElement = document.getElementById('intention');
-            
-            if (!intentionElement) {
-                // Pas de formulaire intelligent, laisser passer
-                e.preventDefault();
-                alert('Formulaire de contact standard (fonctionnalité à implémenter)');
-                return false;
-            }
-            
-            const intention = intentionElement.value;
-            
-            if (!intention) {
-                e.preventDefault();
-                alert('Veuillez sélectionner le type de votre demande.');
-                return false;
-            }
-            
-            // Validation spécifique selon l'intention
-            if (intention === 'adhesion') {
-                const disciplinesChecked = document.querySelectorAll('input[name="disciplines[]"]:checked');
-                const objectifsChecked = document.querySelectorAll('input[name="objectifs[]"]:checked');
-                const disponibilitesChecked = document.querySelectorAll('input[name="disponibilites[]"]:checked');
-                
-                if (disciplinesChecked.length === 0) {
-                    e.preventDefault();
-                    alert('Veuillez sélectionner au moins une discipline que vous pratiquez.');
-                    return false;
-                }
-                
-                if (objectifsChecked.length === 0) {
-                    e.preventDefault();
-                    alert('Veuillez sélectionner au moins un objectif.');
-                    return false;
-                }
-                
-                if (disponibilitesChecked.length === 0) {
-                    e.preventDefault();
-                    alert('Veuillez indiquer vos disponibilités.');
-                    return false;
-                }
-            }
-            
-            if (intention === 'evenement') {
-                const evenementsChecked = document.querySelectorAll('input[name="evenements[]"]:checked');
-                if (evenementsChecked.length === 0) {
-                    e.preventDefault();
-                    alert('Veuillez sélectionner au moins un événement qui vous intéresse.');
-                    return false;
-                }
-            }
-            
-            // Si on arrive ici, le formulaire est valide
-            e.preventDefault();
-            alert('Formulaire validé avec succès ! Dans la vraie version, les données seraient envoyées.');
-            return false;
-        });
-    }
-    
-    // Ajouter les styles CSS pour les animations
-    const style = document.createElement('style');
-    style.textContent = `
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        .gallery-item {
-            transition: all 0.3s ease;
-        }
-    `;
-    document.head.appendChild(style);
-});
-
-// FONCTION pour le formulaire intelligent
-function toggleFormSections() {
-    const intention = document.getElementById('intention');
-    if (!intention) {
-        console.log('Élément intention non trouvé');
-        return;
-    }
-    
-    const intentionValue = intention.value;
-    console.log('Intention sélectionnée:', intentionValue);
-    
-    // Récupérer toutes les sections
-    const sections = document.querySelectorAll('.conditional-section');
-    
-    // Cacher toutes les sections
-    sections.forEach(section => {
-        section.style.display = 'none';
     });
-    
-    // Afficher la section correspondante
-    if (intentionValue) {
-        const targetSection = document.getElementById('section-' + intentionValue);
-        if (targetSection) {
-            targetSection.style.display = 'block';
-            console.log('Section affichée:', targetSection.id);
-            
-            // Scroll vers la section
-            setTimeout(() => {
-                targetSection.scrollIntoView({ 
-                    behavior: 'smooth', 
-                    block: 'nearest' 
-                });
-            }, 100);
-        }
-    }
-}
 
-function updateRequiredFields(intention) {
-    // Fonction simplifiée pour les champs obligatoires conditionnels
-    // À implémenter selon les besoins spécifiques
-    console.log('Updating required fields for:', intention);
-}
+    /* ---- Formulaire intelligent : sections conditionnelles ---- */
+    const intention = document.getElementById('intention');
+    const sections = document.querySelectorAll('.conditional-section');
+    if (intention) {
+        intention.addEventListener('change', () => {
+            sections.forEach(s => { s.hidden = true; });
+            const target = document.getElementById('section-' + intention.value);
+            if (target) target.hidden = false;
+        });
+    }
+
+    /* ---- Soumission du formulaire (Formspree, sans rechargement) ---- */
+    const form = document.getElementById('contactForm');
+    const status = document.getElementById('formStatus');
+    if (form) {
+        form.addEventListener('submit', async function (e) {
+            e.preventDefault();
+            if (status) { status.className = 'form-status'; status.textContent = ''; }
+
+            // Garde-fou si Formspree n'est pas encore configuré
+            if (form.action.includes('YOUR_FORM_ID')) {
+                showStatus('error', "Le formulaire n'est pas encore connecté. Configurez Formspree (voir le commentaire dans index.html) ou écrivez-nous directement par email.");
+                return;
+            }
+
+            const submitBtn = form.querySelector('[type="submit"]');
+            const originalLabel = submitBtn ? submitBtn.textContent : '';
+            if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Envoi en cours...'; }
+
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: { Accept: 'application/json' }
+                });
+                if (response.ok) {
+                    form.reset();
+                    sections.forEach(s => { s.hidden = true; });
+                    showStatus('success', 'Merci ! Votre demande a bien été envoyée. Nous vous recontactons sous 48h.');
+                } else {
+                    showStatus('error', "Une erreur est survenue. Réessayez ou écrivez-nous directement par email.");
+                }
+            } catch (err) {
+                showStatus('error', "Impossible d'envoyer le formulaire. Vérifiez votre connexion ou écrivez-nous par email.");
+            } finally {
+                if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = originalLabel; }
+            }
+        });
+    }
+
+    function showStatus(type, message) {
+        if (!status) { alert(message); return; }
+        status.className = 'form-status ' + type;
+        status.textContent = message;
+        status.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    /* ---- Scrollspy de la sous-navigation (page événement) ---- */
+    const subnavLinks = document.querySelectorAll('.subnav-links a');
+    if (subnavLinks.length && 'IntersectionObserver' in window) {
+        const map = {};
+        subnavLinks.forEach(a => {
+            const id = a.getAttribute('href').slice(1);
+            const section = document.getElementById(id);
+            if (section) map[id] = a;
+        });
+        const spy = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    subnavLinks.forEach(a => a.classList.remove('active'));
+                    if (map[entry.target.id]) map[entry.target.id].classList.add('active');
+                }
+            });
+        }, { rootMargin: '-45% 0px -50% 0px' });
+        Object.keys(map).forEach(id => spy.observe(document.getElementById(id)));
+    }
+
+    /* ---- Animations au scroll (reveal) ---- */
+    const revealEls = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window && revealEls.length) {
+        const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    obs.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        revealEls.forEach(el => observer.observe(el));
+    } else {
+        revealEls.forEach(el => el.classList.add('visible'));
+    }
+});

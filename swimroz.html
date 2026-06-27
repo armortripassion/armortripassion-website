@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swim Roz 2026 — Swimrun en binôme à Perros-Guirec | Armor Tri Passion</title>
+    <meta name="description" content="La Swim Roz, swimrun en binôme à Perros-Guirec sur la Côte de Granit Rose le 11 octobre 2026. Parcours S et M, départ en bateau. Inscriptions complètes — bourse aux dossards. Horaires, accès, hébergements et infos pratiques.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <meta property="og:title" content="Swim Roz 2026 — Swimrun en binôme à Perros-Guirec">
+    <meta property="og:description" content="Swimrun en binôme sur la Côte de Granit Rose le 11 octobre 2026. Départ en bateau. Complet — bourse aux dossards.">
+    <meta property="og:image" content="https://armortripassion.fr/photo-swimroz-1.jpg">
+    <meta property="og:url" content="https://armortripassion.fr/swimroz.html">
+    <meta property="og:type" content="website">
+</head>
+<body class="event-page">
+    <header>
+        <nav class="navbar navbar--transparent" id="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">
+                    <img src="ATP-Logo-wText-100.jpg" alt="Armor Tri Passion">
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li class="nav-item"><a href="index.html#evenements" class="nav-link">Événements</a></li>
+                    <li class="nav-item"><a href="partenaires.html" class="nav-link">Partenaires</a></li>
+                    <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="https://nextrun.fr/e/Swimroz-2026" target="_blank" rel="noopener" class="nav-link nav-cta btn btn-primary">Bourse aux dossards</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="event-hero" id="haut">
+            <div class="hero-bg">
+                <img src="photo-swimroz-1.jpg" alt="Swim Roz — swimrun sur la Côte de Granit Rose" fetchpriority="high">
+            </div>
+            <div class="container">
+                <div class="event-hero-inner">
+                    <img src="swimroz-logo.jpg" alt="Logo Swim Roz" class="event-hero-logo">
+                    <span class="eyebrow">Swimrun en binôme · Perros-Guirec</span>
+                    <h1>La Swim Roz</h1>
+                    <p class="lead">Un swimrun en binôme, convivial et sécurisé, entre Ploumanac'h, Trestraou et Trestrignel — avec un départ en bateau au cœur de la Côte de Granit Rose.</p>
+                    <div class="hero-facts">
+                        <span class="hero-fact"><i class="fas fa-calendar-day"></i> Dimanche 11 octobre 2026</span>
+                        <span class="hero-fact"><i class="fas fa-location-dot"></i> Perros-Guirec (22)</span>
+                        <span class="hero-fact"><i class="fas fa-people-group"></i> En binôme</span>
+                        <span class="hero-fact"><i class="fas fa-medal"></i> Formats S &amp; M</span>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="https://nextrun.fr/e/Swimroz-2026" target="_blank" rel="noopener" class="btn btn-primary">Bourse aux dossards <i class="fas fa-arrow-right"></i></a>
+                        <a href="#parcours" class="btn btn-ghost-light">Voir les parcours</a>
+                    </div>
+                    <p class="lead" style="font-size:1rem;margin-top:1.25rem;opacity:0.9;"><i class="fas fa-circle-info"></i> Les deux formats sont complets — une bourse aux dossards est ouverte sur le site d'inscription.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sous-navigation collante -->
+        <nav class="subnav" id="subnav" aria-label="Sections de la page">
+            <div class="subnav-inner">
+                <ul class="subnav-links">
+                    <li><a href="#evenement">L'événement</a></li>
+                    <li><a href="#parcours">Parcours</a></li>
+                    <li><a href="#horaires">Horaires</a></li>
+                    <li><a href="#acces">S'y rendre</a></li>
+                    <li><a href="#hebergements">Hébergements</a></li>
+                    <li><a href="#eco">Éco-responsable</a></li>
+                    <li><a href="#partenaires">Partenaires</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+                <a href="https://nextrun.fr/e/Swimroz-2026" target="_blank" rel="noopener" class="btn btn-primary">Bourse aux dossards</a>
+            </div>
+        </nav>
+
+        <!-- L'événement -->
+        <section class="section" id="evenement">
+            <div class="container">
+                <div class="event-intro-grid">
+                    <div class="event-intro-text reveal">
+                        <span class="eyebrow">L'événement</span>
+                        <h2>Le swimrun de Perros-Guirec</h2>
+                        <p>Le swimrun, c'est l'alternance de <strong>natation</strong> et de <strong>course à pied</strong>, sans transition, dans un décor à couper le souffle. La Swim Roz se court <strong>en binôme</strong> : deux équipiers, solidaires du départ à l'arrivée.</p>
+                        <p>L'aventure commence par un <strong>embarquement en bateau</strong> qui vous emmène jusqu'à la ligne de départ. S'enchaînent ensuite natation et course à pied parmi les plus beaux spots de Perros-Guirec : les chaos de granit rose de Ploumanac'h, les plages de Trestraou et Trestrignel.</p>
+                        <p>Deux formats au choix — <strong>S</strong> pour la découverte, <strong>M</strong> pour relever le défi. Trois ravitaillements jalonnent le parcours.</p>
+                        <p>Le <strong>règlement complet</strong> (parcours détaillés, matériel, conditions) est disponible sur le site d'inscription.</p>
+                        <a href="https://nextrun.fr/e/Swimroz-2026" target="_blank" rel="noopener" class="btn btn-dark">Règlement &amp; inscriptions <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <aside class="info-box reveal">
+                        <h3>Infos clés</h3>
+                        <ul class="info-list">
+                            <li><i class="fas fa-calendar-day"></i><div><span class="k">Date</span><span class="v">Dimanche 11 octobre 2026</span></div></li>
+                            <li><i class="fas fa-location-dot"></i><div><span class="k">Lieu</span><span class="v">Perros-Guirec — départ en bateau</span></div></li>
+                            <li><i class="fas fa-people-group"></i><div><span class="k">Format</span><span class="v">En binôme · S &amp; M</span></div></li>
+                            <li><i class="fas fa-bottle-water"></i><div><span class="k">Ravitaillements</span><span class="v">3 sur le parcours</span></div></li>
+                            <li><i class="fas fa-ticket"></i><div><span class="k">Inscriptions</span><span class="v">Complet — bourse aux dossards</span></div></li>
+                            <li><i class="fas fa-person-swimming"></i><div><span class="k">Discipline</span><span class="v">Swimrun (natation + course)</span></div></li>
+                        </ul>
+                        <a href="https://nextrun.fr/e/Swimroz-2026" target="_blank" rel="noopener" class="btn btn-primary submit-button" style="margin-top:1.25rem;">Bourse aux dossards</a>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Parcours -->
+        <section class="section section--alt" id="parcours">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Les parcours</span>
+                    <h2>Deux formats, un même décor</h2>
+                    <p>Choisissez votre distance selon votre niveau et votre envie d'aventure. Les deux formats se courent en binôme.</p>
+                </div>
+
+                <div class="parcours-grid">
+                    <!-- Format S -->
+                    <article class="parcours-card reveal">
+                        <div class="parcours-head">
+                            <h3>Découverte</h3>
+                            <span class="format">Format S</span>
+                        </div>
+                        <div class="parcours-body">
+                            <div class="parcours-stats">
+                                <div><span class="num">11,5 km</span><span class="lbl">Distance totale</span></div>
+                                <div><span class="num">2,3 km</span><span class="lbl">Natation</span></div>
+                                <div><span class="num">9,2 km</span><span class="lbl">Course</span></div>
+                            </div>
+                            <p style="color:var(--slate);font-size:0.92rem;margin-bottom:0.75rem;">8 segments, départ et arrivée alternés :</p>
+                            <ul class="parcours-segments">
+                                <li><span class="seg-ico swim"><i class="fas fa-person-swimming"></i></span> Natation — 600 m</li>
+                                <li><span class="seg-ico run"><i class="fas fa-person-running"></i></span> Course — 1,4 km</li>
+                                <li><span class="seg-ico swim"><i class="fas fa-person-swimming"></i></span> Natation — 600 m</li>
+                                <li><span class="seg-ico run"><i class="fas fa-person-running"></i></span> Course — 2 km</li>
+                                <li><span class="seg-ico swim"><i class="fas fa-person-swimming"></i></span> Natation — 500 m</li>
+                                <li><span class="seg-ico run"><i class="fas fa-person-running"></i></span> Course — 2,1 km</li>
+                                <li><span class="seg-ico swim"><i class="fas fa-person-swimming"></i></span> Natation — 600 m</li>
+                                <li><span class="seg-ico run"><i class="fas fa-person-running"></i></span> Course — 3,7 km</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Format M -->
+                    <article class="parcours-card reveal">
+                        <div class="parcours-head">
+                            <h3>Aventure</h3>
+                            <span class="format">Format M</span>
+                        </div>
+                        <div class="parcours-body">
+                            <div class="parcours-stats">
+                                <div><span class="num">17 km</span><span class="lbl">Distance totale</span></div>
+                                <div><span class="num">4 km</span><span class="lbl">Natation</span></div>
+                                <div><span class="num">13 km</span><span class="lbl">Course</span></div>
+                            </div>
+                            <p style="color:var(--slate);font-size:0.92rem;margin-bottom:0.75rem;">12 segments, départ et arrivée alternés :</p>
+                            <ul class="parcours-segments">
+                                <li><span class="seg-ico swim"><i class="fas fa-person-swimming"></i></span> Natation — 600 m</li>
+                                <li><span class="seg-ico run"><i class="fas fa-person-running"></i></span> Course — 2,8 km</li>
+                                <li><span class="seg-ico swim"><i class="fas fa-person-swimming"></i></span> Natation — 600 m</li>
+                                <li><span class="seg-ico run"><i class="fas fa-person-running"></i></span> Course — 830 m</li>
+                                <li><span class="seg-ico swim"><i class="fas fa-person-swimming"></i></span> Natation — 600 m</li>
+                                <li><span class="seg-ico run"><i class="fas fa-person-running"></i></span> Course — 1,4 km</li>
+                                <li><span class="seg-ico swim"><i class="fas fa-person-swimming"></i></span> Natation — 600 m</li>
+                                <li><span class="seg-ico run"><i class="fas fa-person-running"></i></span> Course — 2 km</li>
+                                <li><span class="seg-ico swim"><i class="fas fa-person-swimming"></i></span> Natation — 1 000 m</li>
+                                <li><span class="seg-ico run"><i class="fas fa-person-running"></i></span> Course — 2,1 km</li>
+                                <li><span class="seg-ico swim"><i class="fas fa-person-swimming"></i></span> Natation — 600 m</li>
+                                <li><span class="seg-ico run"><i class="fas fa-person-running"></i></span> Course — 3,7 km</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="parcours-map-wrap">
+                    <div class="map-toolbar">
+                        <div class="map-toggle" role="group" aria-label="Choix du parcours à afficher">
+                            <button type="button" data-trace="S" class="active">Parcours S</button>
+                            <button type="button" data-trace="M">Parcours M</button>
+                        </div>
+                        <div class="map-legend">
+                            <span><i class="dot swim"></i> Natation</span>
+                            <span><i class="dot run"></i> Course à pied</span>
+                        </div>
+                        <div class="map-downloads">
+                            <a href="swimroz-S.gpx" download class="btn btn-outline"><i class="fas fa-download"></i> GPX S</a>
+                            <a href="swimroz-M.gpx" download class="btn btn-outline"><i class="fas fa-download"></i> GPX M</a>
+                        </div>
+                    </div>
+                    <div id="swimroz-map" class="parcours-map"></div>
+                </div>
+
+                <p class="gallery-note">Tracés indicatifs issus des fichiers GPX. Le règlement officiel est disponible sur le <a href="https://nextrun.fr/e/Swimroz-2026" target="_blank" rel="noopener">site d'inscription</a>.</p>
+            </div>
+        </section>
+
+        <!-- Horaires -->
+        <section class="section" id="horaires">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Le programme</span>
+                    <h2>Horaires</h2>
+                    <p>Retrait des dossards la veille, course le dimanche matin.</p>
+                </div>
+
+                <div class="timeline reveal">
+                    <div class="timeline-item">
+                        <div class="timeline-time">Sam. 10 oct. · 16h00 – 20h00</div>
+                        <div class="timeline-label">Retrait des dossards — Palais des Congrès de Perros-Guirec</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">Dim. 11 oct. · 8h15</div>
+                        <div class="timeline-label">Briefing de course</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">8h30</div>
+                        <div class="timeline-label">Embarquement sur le bateau</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">8h35</div>
+                        <div class="timeline-label">Départ du bateau vers la ligne de départ</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">Dès 9h00</div>
+                        <div class="timeline-label">Départ des courses (formats S &amp; M)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- S'y rendre -->
+        <section class="section section--alt" id="acces">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Comment s'y rendre</span>
+                    <h2>Accès &amp; retrait des dossards</h2>
+                    <p>Le retrait des dossards a lieu au Palais des Congrès de Perros-Guirec, la veille de la course.</p>
+                </div>
+
+                <div class="access-grid">
+                    <div class="access-map reveal">
+                        <iframe
+                            src="https://www.google.com/maps?q=Palais+des+Congr%C3%A8s,+Perros-Guirec&output=embed"
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            title="Carte — Palais des Congrès de Perros-Guirec"></iframe>
+                    </div>
+                    <div class="access-cards reveal">
+                        <div class="access-card">
+                            <div class="feature-icon"><i class="fas fa-id-card"></i></div>
+                            <div>
+                                <h3>Retrait des dossards</h3>
+                                <p>Palais des Congrès de Perros-Guirec, le samedi 10 octobre de 16h à 20h.</p>
+                            </div>
+                        </div>
+                        <div class="access-card">
+                            <div class="feature-icon"><i class="fas fa-car"></i></div>
+                            <div>
+                                <h3>En voiture</h3>
+                                <p>Depuis Lannion (~12 km) ou la RN12, direction Perros-Guirec. <em>Parking conseillé à préciser.</em></p>
+                            </div>
+                        </div>
+                        <div class="access-card">
+                            <div class="feature-icon"><i class="fas fa-train"></i></div>
+                            <div>
+                                <h3>En train + car</h3>
+                                <p>Gare de Lannion (TER / TGV via Plouaret-Trégor), puis car BreizhGo vers Perros-Guirec.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hébergements -->
+        <section class="section" id="hebergements">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Où dormir</span>
+                    <h2>Hébergements partenaires</h2>
+                    <p>Profitez de votre week-end sur la Côte de Granit Rose. Nos hébergements partenaires offrent une réduction aux inscrits.</p>
+                </div>
+
+                <div class="lodging-grid">
+                    <div class="lodging-card reveal">
+                        <div class="lodging-logo"><img src="logo-grand-hotel-perros.png" alt="Le Grand Hôtel de Perros-Guirec" loading="lazy"></div>
+                        <span class="type">Hôtel 4★ — réduction inscrits</span>
+                        <h3>Le Grand Hôtel de Perros</h3>
+                        <p>Réduction accordée aux participants de la Swim Roz, sur présentation de votre preuve d'inscription.</p>
+                        <div class="meta">
+                            <span><i class="fas fa-location-dot"></i> Perros-Guirec</span>
+                            <span><i class="fas fa-tag"></i> Tarif préférentiel inscrits</span>
+                        </div>
+                    </div>
+                    <div class="lodging-card reveal">
+                        <div class="lodging-logo"><img src="logo-roz-marine.png" alt="Roz Marine — Hôtel Thalasso &amp; Spa" loading="lazy"></div>
+                        <span class="type">Thalasso &amp; hôtel — réduction inscrits</span>
+                        <h3>Roz Marine Thalasso</h3>
+                        <p>Réduction accordée aux participants de la Swim Roz, sur présentation de votre preuve d'inscription.</p>
+                        <div class="meta">
+                            <span><i class="fas fa-location-dot"></i> Perros-Guirec</span>
+                            <span><i class="fas fa-tag"></i> Tarif préférentiel inscrits</span>
+                        </div>
+                    </div>
+                    <div class="lodging-card reveal">
+                        <span class="type">Plus d'options</span>
+                        <h3>Office de tourisme</h3>
+                        <p>Autres hébergements sur la Côte de Granit Rose via l'office de tourisme de Perros-Guirec.</p>
+                        <div class="meta">
+                            <span><i class="fas fa-location-dot"></i> Perros-Guirec &amp; alentours</span>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="gallery-note">Réduction accordée sur présentation de votre preuve d'inscription à la Swim Roz.</p>
+            </div>
+        </section>
+
+        <!-- Éco-responsable -->
+        <section class="section section--alt" id="eco">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Notre engagement</span>
+                    <h2>Une course éco-responsable</h2>
+                    <p>La Swim Roz se déroule dans un site naturel exceptionnel et fragile. Aidons-nous à le préserver.</p>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature-card reveal">
+                        <div class="feature-icon"><i class="fas fa-trash-can"></i></div>
+                        <h3>Zéro déchet sur le parcours</h3>
+                        <p>Aucun détritus jeté dans la nature ou en mer. Emballages et gels conservés jusqu'aux ravitaillements et zones prévues.</p>
+                    </div>
+                    <div class="feature-card reveal">
+                        <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                        <h3>Respect du littoral</h3>
+                        <p>On reste sur les parcours balisés, on respecte la faune, la flore et les autres usagers du site.</p>
+                    </div>
+                    <div class="feature-card reveal">
+                        <div class="feature-icon"><i class="fas fa-car-side"></i></div>
+                        <h3>Covoiturage &amp; gourde</h3>
+                        <p>Privilégiez le covoiturage pour venir, et apportez votre gourde ou éco-cup pour limiter le jetable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partenaires -->
+        <section class="section" id="partenaires">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Ils soutiennent l'événement</span>
+                    <h2>Nos partenaires</h2>
+                    <p>La Swim Roz est rendue possible grâce à nos partenaires.</p>
+                </div>
+                <div class="partners-grid">
+                    <div class="partner-item reveal">
+                        <div class="partner-logo"><img src="logo-tonton-outdoor.png" alt="Tonton Outdoor" loading="lazy"></div>
+                        <h4>Tonton Outdoor</h4>
+                        <p class="partner-category">Événements Mer</p>
+                        <p class="partner-description">Partenaire privilégié de nos événements aquatiques.</p>
+                    </div>
+                    <div class="partner-item reveal">
+                        <div class="partner-logo"><img src="logo-run-aventure-lannion.png" alt="Run Aventure Lannion" loading="lazy"></div>
+                        <h4>Run Aventure Lannion</h4>
+                        <p class="partner-category">Running &amp; Nature</p>
+                        <p class="partner-description">Expert trail et course nature sur le Trégor.</p>
+                    </div>
+                    <div class="partner-item reveal">
+                        <div class="partner-logo"><img src="logo-cuisines-schmidt.png" alt="Cuisines Schmidt" loading="lazy"></div>
+                        <h4>Cuisines Schmidt</h4>
+                        <p class="partner-category">Habitat &amp; Lifestyle</p>
+                        <p class="partner-description">C. Le Peuch — Aménagement et qualité de vie.</p>
+                    </div>
+                    <div class="partner-item future-partner reveal">
+                        <div class="partner-logo"><div class="logo-placeholder">+</div></div>
+                        <h4>Devenez partenaire</h4>
+                        <p class="partner-category">Votre marque ici</p>
+                        <p class="partner-description"><a href="partenaires.html">Associez-vous à la Swim Roz.</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section section--alt" id="faq">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Questions fréquentes</span>
+                    <h2>FAQ</h2>
+                    <p>Tout ce qu'il faut savoir avant de vous lancer.</p>
+                </div>
+                <div class="faq reveal">
+                    <details open>
+                        <summary>Les formats sont complets : comment participer ?</summary>
+                        <p>Les deux formats affichent complet. Une <strong>bourse aux dossards</strong> est ouverte sur le <a href="https://nextrun.fr/e/Swimroz-2026" target="_blank" rel="noopener">site d'inscription</a> : elle permet de céder ou de reprendre un dossard de manière officielle et sécurisée.</p>
+                    </details>
+                    <details>
+                        <summary>L'épreuve se court-elle en solo ou en binôme ?</summary>
+                        <p>La Swim Roz se court <strong>exclusivement en binôme</strong>, sur les formats S comme M. Les deux équipiers restent ensemble du départ à l'arrivée.</p>
+                    </details>
+                    <details>
+                        <summary>Comment se passe le départ en bateau ?</summary>
+                        <p>Après le briefing à 8h15, l'embarquement a lieu à 8h30 et le bateau part à 8h35 pour vous emmener jusqu'à la ligne de départ. Les courses s'élancent ensuite à partir de 9h00.</p>
+                    </details>
+                    <details>
+                        <summary>Y a-t-il des ravitaillements ?</summary>
+                        <p>Oui, <strong>3 ravitaillements</strong> sont prévus sur le parcours.</p>
+                    </details>
+                    <details>
+                        <summary>Quel est l'âge minimum ?</summary>
+                        <p>L'épreuve est ouverte aux participants de <strong>18 ans révolus</strong> au jour de la course. Les mineurs de <strong>16 à 17 ans</strong> (cadets) peuvent être autorisés sur la <strong>distance S uniquement</strong>, sous réserve d'une autorisation parentale signée et d'un brevet de natation de 50 m (ou d'une attestation sur l'honneur des parents).</p>
+                    </details>
+                    <details>
+                        <summary>Licence, assurance et certificat médical ?</summary>
+                        <p>Chaque participant doit justifier d'une couverture d'assurance individuelle :</p>
+                        <p>• <strong>Licence FFTRI compétition</strong> en cours de validité : à présenter au retrait du dossard, sans certificat médical supplémentaire.<br>
+                        • <strong>Pass Compétition FFTri</strong> (licence journée) pour les non-licenciés : souscription obligatoire à l'inscription. Il faut alors fournir un <strong>certificat médical</strong> de non contre-indication à la pratique du triathlon/swimrun en compétition de <strong>moins d'un an</strong>, ainsi que le formulaire d'information santé.<br>
+                        • <strong>Licenciés de fédérations étrangères</strong> : Pass Compétition obligatoire, sauf accord FFTRI (Allemagne, Angleterre, Belgique, Espagne, Italie, Luxembourg, Pays-Bas, Portugal, Suisse).</p>
+                        <p>L'organisateur peut refuser une inscription ou un départ à tout participant ne remplissant pas ces conditions.</p>
+                    </details>
+                    <details>
+                        <summary>Quel est le matériel obligatoire ?</summary>
+                        <p>Conformément au RTS FFTRI (art. 25.5.1), pendant toute la course :</p>
+                        <p>• <strong>Chaussures adaptées</strong> (interdit de courir ou nager pieds nus)<br>
+                        • <strong>Combinaison néoprène</strong> : obligatoire si une section de nage est à moins de 16 °C, portée sur toute l'épreuve<br>
+                        • <strong>Sifflet sans bille</strong> toujours à portée de main<br>
+                        • <strong>Bonnet de bain et dossard (chasuble)</strong> fournis, portés visiblement<br>
+                        • <strong>Puce de chronométrage</strong> fournie, à la cheville gauche</p>
+                        <p>Le non-respect de cette obligation entraîne la disqualification.</p>
+                    </details>
+                    <details>
+                        <summary>Matériel autorisé et interdit ?</summary>
+                        <p><strong>Autorisé :</strong> lunettes de natation ; plaquettes (taille limitée, précisée au briefing) ; pull buoy (porté toute la course) ; longe de traction pour le duo (max 4 m, largable, interdite sur les départs groupés de natation) ; sac étanche.</p>
+                        <p><strong>Interdit :</strong> palmes ; tuba et masque de plongée ; toute aide à la flottaison autre que combinaison et pull buoy ; bâtons de marche/trail ; longe non largable ou &gt; 4 m ; plaquettes hors dimensions autorisées.</p>
+                    </details>
+                    <details>
+                        <summary>Des hébergements à tarif réduit ?</summary>
+                        <p>Oui : <strong>Le Grand Hôtel de Perros</strong> et <strong>Roz Marine Thalasso</strong> proposent une réduction aux inscrits, sur présentation de votre preuve d'inscription.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inscription finale -->
+        <section class="section register-band">
+            <div class="container">
+                <span class="eyebrow" style="color:#fff;">Rendez-vous le 11 octobre</span>
+                <h2>La Swim Roz 2026 affiche complet</h2>
+                <p>Les deux formats sont complets. Pour tenter votre chance, rendez-vous sur la bourse aux dossards du site d'inscription.</p>
+                <a href="https://nextrun.fr/e/Swimroz-2026" target="_blank" rel="noopener" class="btn btn-primary">Accéder à la bourse aux dossards <i class="fas fa-arrow-right"></i></a>
+                <p style="margin-top:1.5rem;font-size:0.95rem;">Une question ? <a href="index.html#contact" style="color:#fff;text-decoration:underline;">Contactez-nous</a> ou suivez l'événement sur
+                    <a href="https://facebook.com/laswimroz" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline;">Facebook</a> et
+                    <a href="https://instagram.com/laswimroz" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline;">Instagram</a>.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="ATP-Logo-wText-100.jpg" alt="Armor Tri Passion">
+                    <p>La Swim Roz est organisée par Armor Tri Passion, club multisports d'endurance sur la Côte de Granit Rose.</p>
+                    <div class="footer-socials">
+                        <a href="https://facebook.com/laswimroz" target="_blank" rel="noopener" aria-label="Facebook Swim Roz"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/laswimroz" target="_blank" rel="noopener" aria-label="Instagram Swim Roz"><i class="fab fa-instagram"></i></a>
+                        <a href="index.html#contact" aria-label="Contact"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h5>La Swim Roz</h5>
+                    <ul>
+                        <li><a href="#parcours">Parcours</a></li>
+                        <li><a href="#horaires">Horaires</a></li>
+                        <li><a href="#acces">S'y rendre</a></li>
+                        <li><a href="#hebergements">Hébergements</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Armor Tri Passion</h5>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html#evenements">Tous les événements</a></li>
+                        <li><a href="partenaires.html">Partenaires</a></li>
+                        <li><a href="https://nextrun.fr/e/Swimroz-2026" target="_blank" rel="noopener">Bourse aux dossards</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Armor Tri Passion — Association Loi 1901 — RNA : W222009541 — Perros-Guirec, Bretagne</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script>
+    /* Carte interactive des parcours Swim Roz (tracés GPX colorés nage/course) */
+    (function () {
+        var mapEl = document.getElementById('swimroz-map');
+        if (!mapEl || typeof L === 'undefined') return;
+
+        var css = getComputedStyle(document.documentElement);
+        var COL = {
+            swim: (css.getPropertyValue('--sea') || '#18a6b8').trim(),
+            run: (css.getPropertyValue('--coral') || '#ec6a52').trim()
+        };
+
+        var map = L.map(mapEl, { scrollWheelZoom: false }).setView([48.825, -3.46], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        var groups = {};
+
+        function loadTrace(key, url) {
+            return fetch(url).then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.text();
+            }).then(function (txt) {
+                var xml = new DOMParser().parseFromString(txt, 'application/xml');
+                var trks = xml.getElementsByTagName('trk');
+                var grp = L.featureGroup();
+                for (var i = 0; i < trks.length; i++) {
+                    var nameEl = trks[i].getElementsByTagName('name')[0];
+                    var nm = nameEl ? (nameEl.textContent || '').toLowerCase() : '';
+                    var isSwim = nm.indexOf('nat') !== -1;
+                    var pts = trks[i].getElementsByTagName('trkpt');
+                    var latlngs = [];
+                    for (var j = 0; j < pts.length; j++) {
+                        latlngs.push([
+                            parseFloat(pts[j].getAttribute('lat')),
+                            parseFloat(pts[j].getAttribute('lon'))
+                        ]);
+                    }
+                    if (latlngs.length > 1) {
+                        L.polyline(latlngs, {
+                            color: isSwim ? COL.swim : COL.run,
+                            weight: 4,
+                            opacity: 0.9,
+                            lineCap: 'round',
+                            dashArray: isSwim ? '1,7' : null
+                        }).addTo(grp);
+                    }
+                }
+                groups[key] = grp;
+            });
+        }
+
+        function show(key) {
+            Object.keys(groups).forEach(function (k) {
+                if (map.hasLayer(groups[k])) map.removeLayer(groups[k]);
+            });
+            var g = groups[key];
+            if (g) {
+                g.addTo(map);
+                try { map.fitBounds(g.getBounds(), { padding: [28, 28] }); } catch (e) {}
+            }
+        }
+
+        Promise.all([loadTrace('S', 'swimroz-S.gpx'), loadTrace('M', 'swimroz-M.gpx')])
+            .then(function () { show('S'); })
+            .catch(function () {
+                mapEl.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;padding:1.5rem;text-align:center;color:#5d6878">La carte interactive s\'affiche une fois le site en ligne (ou via un serveur local). En attendant, téléchargez les traces GPX ci-dessus.</div>';
+            });
+
+        document.querySelectorAll('.map-toggle button').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                document.querySelectorAll('.map-toggle button').forEach(function (b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+                show(btn.getAttribute('data-trace'));
+            });
+        });
+    })();
+    </script>
+</body>
+</html>
