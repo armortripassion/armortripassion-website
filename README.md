@@ -31,7 +31,7 @@ Le formulaire collecte :
 - Disponibilités et motivation
 - Message libre
 
-**Important** : Le formulaire prépare actuellement un email formaté qui est copié dans le presse-papier. Vous devrez l'envoyer manuellement ou intégrer un service d'envoi.
+**Activation de l'envoi** : Le formulaire est prêt à envoyer les demandes par email via [Formspree](https://formspree.io) (offre gratuite). Créez un formulaire sur Formspree, puis remplacez `YOUR_FORM_ID` dans l'attribut `action` du `<form id="contactForm">` de `index.html`. Tant que ce n'est pas fait, le formulaire affiche un message invitant à écrire par email.
 
 ## Options d'hébergement recommandées
 

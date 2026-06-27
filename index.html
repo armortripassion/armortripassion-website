@@ -3,193 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Armor Tri Passion - Association de Triathlon à Perros-Guirec</title>
-    <meta name="description" content="Armor Tri Passion - Plus qu'un club, une communauté de triathlon inclusive à Perros-Guirec, Côtes d'Armor. Organisateur de La Swim Roz et Tro Enez Veur.">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Armor Tri Passion - Club multisports à Perros-Guirec</title>
+    <meta name="description" content="Armor Tri Passion - Plus qu'un club, une communauté multisports inclusive à Perros-Guirec, Côtes d'Armor : triathlon, swimrun, duathlon, fitness racing, course, natation et vélo. Organisateur de La Swim Roz, Tro Enez Veur et Fit Roz.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Favicon -->
+    <link rel="stylesheet" href="style.css">
+
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" type="image/png" href="favicon.png">
 
-    <!-- Réseaux sociaux -->
-    <meta property="og:title" content="Armor Tri Passion - Association Triathlon Perros-Guirec">
-    <meta property="og:description" content="Plus qu'un club, une communauté de triathlon inclusive sur la Côte de Granit Rose">
+    <meta property="og:title" content="Armor Tri Passion - Club multisports Perros-Guirec">
+    <meta property="og:description" content="Plus qu'un club, une communauté multisports inclusive sur la Côte de Granit Rose">
     <meta property="og:image" content="https://armortripassion.fr/og-image.jpg">
     <meta property="og:url" content="https://armortripassion.fr">
+    <meta property="og:type" content="website">
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar navbar--transparent" id="navbar">
             <div class="nav-container">
-                <div class="nav-logo">
-                    <img src="ATP-Logo-wText-100.jpg" alt="Armor Tri Passion" class="logo">
-                </div>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="#accueil" class="nav-link">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#evenements" class="nav-link">Événements</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#galerie" class="nav-link">Galerie</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="partenaires.html" class="nav-link">Partenaires</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://armortripassion.s2.yapla.com/fr/espace-membres" target="_blank" rel="noopener" class="nav-link">Espace Membres</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
+                <a href="#accueil" class="nav-logo">
+                    <img src="ATP-Logo-wText-100.jpg" alt="Armor Tri Passion">
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="#accueil" class="nav-link">Accueil</a></li>
+                    <li class="nav-item"><a href="#club" class="nav-link">Le club</a></li>
+                    <li class="nav-item"><a href="#evenements" class="nav-link">Événements</a></li>
+                    <li class="nav-item"><a href="#galerie" class="nav-link">Galerie</a></li>
+                    <li class="nav-item"><a href="partenaires.html" class="nav-link">Partenaires</a></li>
+                    <li class="nav-item"><a href="https://armortripassion.s2.yapla.com/fr/espace-membres" target="_blank" rel="noopener" class="nav-link">Espace Membres</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link nav-cta btn btn-primary">Nous rejoindre</a></li>
                 </ul>
-                <div class="hamburger">
+                <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
-                </div>
+                </button>
             </div>
         </nav>
     </header>
 
     <main>
-        <!-- Section Accueil -->
+        <!-- Hero -->
         <section id="accueil" class="hero">
-            <div class="hero-content">
-                <h1>Bienvenue à Armor Tri Passion</h1>
-                <p class="hero-subtitle">Plus qu'un club, une communauté de triathlon inclusive à Perros-Guirec</p>
-                <div class="hero-description">
-                    <p>Fondée en 2024 sur la magnifique Côte de Granit Rose, Armor Tri Passion est bien plus qu'une association sportive. Nous créons un environnement bienveillant où chacun peut progresser à son rythme, en conciliant passion du triathlon, contraintes familiales et professionnelles.</p>
-                    <p>Notre philosophie : l'inclusivité, l'entraide et le respect du rythme de chacun.</p>
-                </div>
-                <a href="#contact" class="cta-button">Nous rejoindre</a>
+            <div class="hero-bg">
+                <img src="Ploum-et-costa.jpg" alt="Côte de Granit Rose à Ploumanac'h" fetchpriority="high">
             </div>
-            <div class="hero-image">
-                <img src="Ploum-et-costa-small.jpg" alt="Côte de Granit Rose" class="hero-image-photo">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="eyebrow">Triathlon · Swimrun · Fitness racing</span>
+                    <h1>Plus qu'un club,<br>une communauté.</h1>
+                    <p class="hero-subtitle">Club multisports d'endurance, inclusif et convivial à Perros-Guirec, en Bretagne.</p>
+                    <div class="hero-description">
+                        <p>Créée en 2024 et lancée en 2025 sur la magnifique Côte de Granit Rose, Armor Tri Passion crée un environnement bienveillant où chacun progresse à son rythme — en conciliant passion du sport, famille et vie professionnelle.</p>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Nous rejoindre</a>
+                        <a href="#evenements" class="btn btn-ghost-light">Voir nos événements</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#club" class="hero-scroll" aria-label="Défiler"><i class="fas fa-chevron-down"></i></a>
+        </section>
+
+        <!-- Le club -->
+        <section id="club" class="section">
+            <div class="container">
+                <div class="intro-grid">
+                    <div class="intro-text reveal">
+                        <span class="eyebrow">Notre philosophie</span>
+                        <h2>Le sport pour tous, à son rythme</h2>
+                        <p>Chez Armor Tri Passion, nous croyons qu'on progresse mieux ensemble. Triathlon, swimrun, duathlon, fitness racing — ou simplement natation, vélo ou course à pied : chacun trouve sa place, du grand débutant au compétiteur confirmé.</p>
+                        <p>Nos maîtres-mots : l'<strong>inclusivité</strong>, l'<strong>entraide</strong> et le <strong>respect du rythme de chacun</strong>. Et parce que la Côte de Granit Rose est un terrain de jeu exceptionnel, nous organisons aussi nos propres événements.</p>
+                        <a href="#contact" class="btn btn-dark">Manifester mon intérêt</a>
+                    </div>
+                    <div class="intro-media reveal">
+                        <img src="photo-entrainement-1.jpg" alt="Entraînement Armor Tri Passion" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="stats-row">
+                    <div class="stat reveal"><span class="stat-num">2025</span><span class="stat-label">Saison de lancement</span></div>
+                    <div class="stat reveal"><span class="stat-num">20</span><span class="stat-label">Membres actifs</span></div>
+                    <div class="stat reveal"><span class="stat-num">3</span><span class="stat-label">Événements par an</span></div>
+                    <div class="stat reveal"><span class="stat-num">100+</span><span class="stat-label">Sessions / an</span></div>
+                </div>
             </div>
         </section>
 
-        <!-- Section Événements -->
-        <section id="evenements" class="events">
+        <!-- Événements -->
+        <section id="evenements" class="section section--alt">
             <div class="container">
-                <h2>Nos Événements</h2>
+                <div class="section-head">
+                    <span class="eyebrow">Nos rendez-vous</span>
+                    <h2>Nos Événements</h2>
+                    <p>Trois rendez-vous sportifs sur la Côte de Granit Rose, ouverts à tous les niveaux.</p>
+                </div>
+
                 <div class="events-grid">
-                    <div class="event-card">
-                        <div class="event-header">
-                            <h3>Fit Roz</h3>
-                            <span class="event-status">Nouveau Projet</span>
+                    <!-- Swim Roz -->
+                    <article class="event-card reveal">
+                        <div class="event-media">
+                            <img src="photo-swimroz-1.jpg" alt="Swim Roz - Swimrun à Perros-Guirec" loading="lazy">
+                            <span class="event-badge is-soon">1ʳᵉ édition</span>
                         </div>
-                        <div class="event-content">
-                            <p><strong>Fitness Race</strong> au complexe Yves Le Jannou à Perros-Guirec.</p>
-                            <ul class="event-details">
-                                <li>Formats S, M, L et Jeunes</li>
-                                <li>Tester sa Force et son Endurance</li>
-                                <li>Encadré par des coachs sportifs</li>
-                            </ul>
-                        </div>
-                        <div class="event-actions">
-                            <a href="https://drive.google.com/drive/folders/1HoSdNel5Sm8PNzkuhjl8mT9eDUtsX4Si?usp=sharing" target="_blank" rel="noopener" class="cta-button">
-                                Résultats
-                            </a>
-                        </div>
-                        <div class="event-social">
-                            <p class="social-label">Suivre l'événement :</p>
-                            <div class="social-links">
-                                <a href="https://facebook.com/asso.armortripassion" target="_blank" rel="noopener" class="social-link facebook">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <span>Facebook</span>
-                                </a>
-                                <a href="https://instagram.com/armortripassion" target="_blank" rel="noopener" class="social-link instagram">
-                                    <i class="fab fa-instagram"></i>
-                                    <span>Instagram</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="event-footer">
-                            <p class="event-date">Première édition : 28 février 2026</p>
-                        </div>
-                    </div>
-                    <div class="event-card">
-                        <div class="event-header">
+                        <div class="event-body">
                             <h3>Swim Roz</h3>
-                            <span class="event-status">Nouveau Projet</span>
-                        </div>
-                        <div class="event-content">
-                            <p><strong>Swimrun</strong> à Perros-Guirec, entre Ploumanach, Trestraou, Trestrignel et le Port de Plaisance.</p>
-                            <ul class="event-details">
-                                <li>Formats S et M</li>
+                            <p class="event-meta"><i class="fas fa-calendar-day"></i> 11 octobre 2026 · Perros-Guirec</p>
+                            <p>Un <strong>swimrun</strong> en binôme entre Ploumanac'h, Trestraou et Trestrignel.</p>
+                            <ul class="event-tags">
+                                <li>Formats S &amp; M</li>
                                 <li>Environnement sécurisé</li>
-                                <li>Ambiance conviviale</li>
+                                <li>Convivial</li>
                             </ul>
                         </div>
-                        <div class="event-actions">
-                            <a href="https://nextrun.fr/e/Swimroz-2026" target="_blank" rel="noopener" class="cta-button">
-                                S'inscrire
-                            </a>
-                        </div>
-                        <div class="event-social">
-                            <p class="social-label">Suivre l'événement :</p>
-                            <div class="social-links">
-                                <a href="https://facebook.com/laswimroz" target="_blank" rel="noopener" class="social-link facebook">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <span>Facebook</span>
-                                </a>
-                                <a href="https://instagram.com/laswimroz" target="_blank" rel="noopener" class="social-link instagram">
-                                    <i class="fab fa-instagram"></i>
-                                    <span>Instagram</span>
-                                </a>
+                        <div class="event-foot">
+                            <a href="swimroz.html" class="btn btn-primary">Découvrir <i class="fas fa-arrow-right"></i></a>
+                            <div class="event-socials">
+                                <a href="https://facebook.com/laswimroz" target="_blank" rel="noopener" aria-label="Facebook Swim Roz"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://instagram.com/laswimroz" target="_blank" rel="noopener" aria-label="Instagram Swim Roz"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="event-footer">
-                            <p class="event-date">Première édition : 11 Octobre 2026</p>
+                    </article>
+
+                    <!-- Tro Enez Veur -->
+                    <article class="event-card reveal">
+                        <div class="event-media">
+                            <img src="photo-tro-1.jpg" alt="Tro Enez Veur - course nature sur l'Île Grande" loading="lazy">
+                            <span class="event-badge">18ᵉ édition</span>
                         </div>
-                    </div>
-                    <div class="event-card">
-                        <div class="event-header">
+                        <div class="event-body">
                             <h3>Tro Enez Veur</h3>
-                            <span class="event-status">18ème édition</span>
-                        </div>
-                        <div class="event-content">
-                            <p><strong>Course Nature</strong> sur la presqu'île de l'Île Grande.</p>
-                            <ul class="event-details">
-                                <li>Parcours découverte du patrimoine local</li>
-                                <li>Différentes distances proposées</li>
-                                <li>Première édition en 2004; reprise par notre association en 2025</li>
+                            <p class="event-meta"><i class="fas fa-calendar-day"></i> 4 octobre 2026 · Île Grande</p>
+                            <p><strong>Course nature</strong> à la découverte du patrimoine de la presqu'île de l'Île Grande.</p>
+                            <ul class="event-tags">
+                                <li>Plusieurs distances</li>
+                                <li>Patrimoine local</li>
+                                <li>Depuis 2004</li>
                             </ul>
                         </div>
-                        <div class="event-actions">
-                            <button class="cta-button coming-soon" disabled>
-                                S'inscrire - Bientôt
-                            </button>
-                        </div>
-                        <div class="event-social">
-                            <p class="social-label">Suivre l'événement :</p>
-                            <div class="social-links">
-                                <a href="https://facebook.com/troenezveur" target="_blank" rel="noopener" class="social-link facebook">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <span>Facebook</span>
-                                </a>
+                        <div class="event-foot">
+                            <span class="btn btn-outline is-disabled">Bientôt</span>
+                            <div class="event-socials">
+                                <a href="https://facebook.com/troenezveur" target="_blank" rel="noopener" aria-label="Facebook Tro Enez Veur"><i class="fab fa-facebook-f"></i></a>
                             </div>
                         </div>
-                        <div class="event-footer">
-                            <p class="event-date">Prochaine édition : 4 Octobre 2026</p>
+                    </article>
+
+                    <!-- Fit Roz -->
+                    <article class="event-card reveal">
+                        <div class="event-media">
+                            <img src="photo-paysage-2.jpg" alt="Fit Roz - Fitness Race à Perros-Guirec" loading="lazy">
+                            <span class="event-badge is-soon">Nouveau</span>
                         </div>
-                    </div>
+                        <div class="event-body">
+                            <h3>Fit Roz</h3>
+                            <p class="event-meta"><i class="fas fa-calendar-day"></i> 28 février 2026 · Perros-Guirec</p>
+                            <p><strong>Fitness Race</strong> au complexe Yves Le Jannou : testez votre force et votre endurance.</p>
+                            <ul class="event-tags">
+                                <li>Formats S, M, L &amp; Jeunes</li>
+                                <li>Encadré par des coachs</li>
+                            </ul>
+                        </div>
+                        <div class="event-foot">
+                            <a href="https://drive.google.com/drive/folders/1HoSdNel5Sm8PNzkuhjl8mT9eDUtsX4Si?usp=sharing" target="_blank" rel="noopener" class="btn btn-dark">Résultats</a>
+                            <div class="event-socials">
+                                <a href="https://facebook.com/asso.armortripassion" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://instagram.com/armortripassion" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <!-- Section Galerie -->
-        <section id="galerie" class="gallery">
+        <!-- Galerie -->
+        <section id="galerie" class="section">
             <div class="container">
-                <h2>Galerie Photos</h2>
-                <p class="gallery-subtitle">Découvrez l'ambiance de nos événements et la beauté de la Côte de Granit Rose</p>
-                
+                <div class="section-head">
+                    <span class="eyebrow">En images</span>
+                    <h2>Galerie Photos</h2>
+                    <p>L'ambiance de nos événements et la beauté de la Côte de Granit Rose.</p>
+                </div>
+
                 <div class="gallery-filters">
-                    <button class="filter-btn active" data-filter="all">Toutes les photos</button>
+                    <button class="filter-btn active" data-filter="all">Toutes</button>
                     <button class="filter-btn" data-filter="swimroz">Swim Roz</button>
                     <button class="filter-btn" data-filter="troenezveur">Tro Enez Veur</button>
                     <button class="filter-btn" data-filter="entrainement">Entraînements</button>
@@ -197,80 +198,81 @@
                 </div>
 
                 <div class="gallery-grid">
-                    <!-- Exemples de photos - remplacez par vos vraies photos -->
-                    <div class="gallery-item" data-category="swimroz">
-                        <img src="photo-swimroz-1.jpg" alt="Swim Roz 2024" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h4>Swim Roz 2024</h4>
-                            <p>Départ depuis Ploumanac'h</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item" data-category="troenezveur">
-                        <img src="photo-tro-1.jpg" alt="Tro Enez Veur Trail" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h4>Tro Enez Veur</h4>
-                            <p>Trail sur l'Île Grande</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item" data-category="paysage">
+                    <figure class="gallery-item" data-category="swimroz">
+                        <img src="photo-swimroz-1.jpg" alt="Swim Roz - départ depuis Ploumanac'h" loading="lazy">
+                        <figcaption class="gallery-overlay"><h4>Swim Roz</h4><p>Départ depuis Ploumanac'h</p></figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-category="troenezveur">
+                        <img src="photo-tro-1.jpg" alt="Tro Enez Veur sur l'Île Grande" loading="lazy">
+                        <figcaption class="gallery-overlay"><h4>Tro Enez Veur</h4><p>Course nature sur l'Île Grande</p></figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-category="paysage">
                         <img src="photo-paysage-1.jpg" alt="Côte de Granit Rose" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h4>Côte de Granit Rose</h4>
-                            <p>Notre terrain de jeu exceptionnel</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item" data-category="entrainement">
-                        <img src="photo-entrainement-1.jpg" alt="Entraînement triathlon" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h4>Entraînements</h4>
-                            <p>Sessions groupe conviviales</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item" data-category="swimroz">
-                        <img src="photo-swimroz-2.jpg" alt="Swim Roz ambiance" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h4>Swim Roz</h4>
-                            <p>L'esprit d'équipe avant tout</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item" data-category="paysage">
+                        <figcaption class="gallery-overlay"><h4>Côte de Granit Rose</h4><p>Notre terrain de jeu</p></figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-category="entrainement">
+                        <img src="photo-entrainement-1.jpg" alt="Entraînement de groupe" loading="lazy">
+                        <figcaption class="gallery-overlay"><h4>Entraînements</h4><p>Sessions de groupe conviviales</p></figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-category="swimroz">
+                        <img src="photo-swimroz-2.jpg" alt="Swim Roz - ambiance" loading="lazy">
+                        <figcaption class="gallery-overlay"><h4>Swim Roz</h4><p>L'esprit d'équipe avant tout</p></figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-category="paysage">
                         <img src="photo-paysage-2.jpg" alt="Phare de Mean Ruz" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h4>Phare de Mean Ruz</h4>
-                            <p>Symbole de nos événements</p>
-                        </div>
-                    </div>
+                        <figcaption class="gallery-overlay"><h4>Phare de Mean Ruz</h4><p>Symbole de nos événements</p></figcaption>
+                    </figure>
                 </div>
 
-                <div class="gallery-note">
-                    <p><em>Photos : Armor Tri Passion & partenaires. Merci aux photographes bénévoles !</em></p>
-                </div>
+                <p class="gallery-note">Photos : Armor Tri Passion &amp; partenaires. Merci aux photographes bénévoles !</p>
             </div>
         </section>
 
-        <!-- Section Contact -->
-        <section id="contact" class="contact">
+        <!-- Contact -->
+        <section id="contact" class="section section--alt">
             <div class="container">
-                <h2>Nous Contacter</h2>
-                <div class="contact-content">
-                    <div class="contact-info">
+                <div class="section-head">
+                    <span class="eyebrow">Premier contact</span>
+                    <h2>Nous Contacter</h2>
+                    <p>Envie de nous rejoindre ou de participer à un événement ? Faisons connaissance.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
                         <h3>Manifester votre intérêt</h3>
-                        <p>Vous souhaitez nous rejoindre ou participer à nos événements ? Nous privilégions un premier échange pour mieux vous connaître et vous présenter notre approche.</p>
-                        <div class="contact-details">
-                            <p><strong>Email :</strong> <a href="mailto:contact@armortripassion.fr">contact@armortripassion.fr</a></p>
-                            <p><strong>Localisation :</strong> Perros-Guirec, Côtes d'Armor (22)</p>
+                        <p>Nous privilégions un premier échange pour mieux vous connaître et vous présenter notre approche. Remplissez le formulaire, nous vous recontactons rapidement.</p>
+
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="label">Email</span>
+                                <div class="value"><a href="#" class="email-link" data-user="contact" data-domain="armortripassion.fr">Afficher l'email</a></div>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-location-dot"></i>
+                            <div>
+                                <span class="label">Localisation</span>
+                                <div class="value">Perros-Guirec, Côtes d'Armor (22)</div>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-share-nodes"></i>
+                            <div>
+                                <span class="label">Réseaux</span>
+                                <div class="value">
+                                    <a href="https://facebook.com/asso.armortripassion" target="_blank" rel="noopener">Facebook</a> ·
+                                    <a href="https://instagram.com/armortripassion" target="_blank" rel="noopener">Instagram</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    
-                    <form class="contact-form" id="contactForm">
+
+                    <!-- Envoi des demandes via Formspree (form ID : mojowjwz).
+                         Tableau de bord : https://formspree.io -->
+                    <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/mojowjwz" method="POST">
                         <h4>Nous aimerions mieux vous connaître</h4>
-                        
-                        <!-- Informations de base -->
+
                         <div class="form-section">
                             <div class="form-group">
                                 <label for="nom">Nom et prénom *</label>
@@ -286,7 +288,6 @@
                             </div>
                         </div>
 
-                        <!-- Question filtrage principale -->
                         <div class="form-section">
                             <div class="form-group">
                                 <label for="intention">Quelle est votre demande principale ? *</label>
@@ -300,12 +301,11 @@
                             </div>
                         </div>
 
-                        <!-- Section ADHÉSION (cachée par défaut) -->
-                        <div id="section-adhesion" class="form-section conditional-section" style="display: none;">
-                            <h5>🏃‍♂️ Votre profil sportif</h5>
-                            
+                        <!-- ADHÉSION -->
+                        <div id="section-adhesion" class="form-section conditional-section" hidden>
+                            <h5>Votre profil sportif</h5>
                             <div class="form-group">
-                                <label for="niveau-global">Votre niveau sportif général *</label>
+                                <label for="niveau-global">Votre niveau sportif général</label>
                                 <select id="niveau-global" name="niveau-global">
                                     <option value="">Sélectionnez...</option>
                                     <option value="debutant">Débutant (je débute dans le sport)</option>
@@ -315,9 +315,8 @@
                                     <option value="competiteur">Compétiteur confirmé</option>
                                 </select>
                             </div>
-
                             <div class="form-group">
-                                <label for="disciplines-actuelles">Quelles disciplines pratiquez-vous actuellement ? *</label>
+                                <label>Quelles disciplines pratiquez-vous actuellement ?</label>
                                 <div class="checkbox-group">
                                     <label><input type="checkbox" name="disciplines[]" value="natation"> Natation</label>
                                     <label><input type="checkbox" name="disciplines[]" value="course"> Course à pied</label>
@@ -329,159 +328,91 @@
                                     <label><input type="checkbox" name="disciplines[]" value="aucune"> Aucune activité régulière</label>
                                 </div>
                             </div>
-
                             <div class="form-group">
-                                <label for="discipline-prefere">Quelle discipline vous attire le PLUS dans le triathlon ?</label>
-                                <select id="discipline-prefere" name="discipline-prefere">
-                                    <option value="">Je ne sais pas encore</option>
-                                    <option value="natation">Natation</option>
-                                    <option value="course">Course à pied</option>
-                                    <option value="velo">Vélo</option>
-                                    <option value="enchainements">Les enchaînements</option>
-                                    <option value="tout">Tout m'intéresse autant</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="objectifs">Quels sont vos objectifs avec le triathlon ? *</label>
+                                <label>Quels sont vos objectifs ?</label>
                                 <div class="checkbox-group">
-                                    <option-group>
-                                        <label><input type="checkbox" name="objectifs[]" value="decouverte"> Découvrir le triathlon</label>
-                                        <label><input type="checkbox" name="objectifs[]" value="forme"> Améliorer ma forme physique</label>
-                                        <label><input type="checkbox" name="objectifs[]" value="social"> Rencontrer des personnes avec la même passion</label>
-                                        <label><input type="checkbox" name="objectifs[]" value="competition"> Faire des compétitions</label>
-                                        <label><input type="checkbox" name="objectifs[]" value="performance"> Améliorer mes performances</label>
-                                        <label><input type="checkbox" name="objectifs[]" value="plaisir"> Pratiquer pour le plaisir</label>
-                                        <label><input type="checkbox" name="objectifs[]" value="defi"> Me lancer un défi personnel</label>
-                                    </option-group>
+                                    <label><input type="checkbox" name="objectifs[]" value="decouverte"> Découvrir une nouvelle discipline</label>
+                                    <label><input type="checkbox" name="objectifs[]" value="forme"> Améliorer ma forme</label>
+                                    <label><input type="checkbox" name="objectifs[]" value="social"> Rencontrer des passionnés</label>
+                                    <label><input type="checkbox" name="objectifs[]" value="competition"> Faire des compétitions</label>
+                                    <label><input type="checkbox" name="objectifs[]" value="plaisir"> Pratiquer pour le plaisir</label>
+                                    <label><input type="checkbox" name="objectifs[]" value="defi"> Me lancer un défi</label>
                                 </div>
                             </div>
-
                             <div class="form-group">
-                                <label for="disponibilites-detail">Vos disponibilités pour les entraînements *</label>
+                                <label>Vos disponibilités pour les entraînements</label>
                                 <div class="checkbox-group">
-                                    <label><input type="checkbox" name="disponibilites[]" value="semaine-matin"> Semaine - Matin (avant 9h)</label>
-                                    <label><input type="checkbox" name="disponibilites[]" value="semaine-midi"> Semaine - Midi (12h-14h)</label>
-                                    <label><input type="checkbox" name="disponibilites[]" value="semaine-soir"> Semaine - Soir (après 18h)</label>
-                                    <label><input type="checkbox" name="disponibilites[]" value="samedi-matin"> Samedi matin</label>
-                                    <label><input type="checkbox" name="disponibilites[]" value="samedi-aprem"> Samedi après-midi</label>
-                                    <label><input type="checkbox" name="disponibilites[]" value="dimanche-matin"> Dimanche matin</label>
-                                    <label><input type="checkbox" name="disponibilites[]" value="dimanche-aprem"> Dimanche après-midi</label>
+                                    <label><input type="checkbox" name="disponibilites[]" value="semaine-matin"> Semaine - Matin</label>
+                                    <label><input type="checkbox" name="disponibilites[]" value="semaine-midi"> Semaine - Midi</label>
+                                    <label><input type="checkbox" name="disponibilites[]" value="semaine-soir"> Semaine - Soir</label>
+                                    <label><input type="checkbox" name="disponibilites[]" value="samedi"> Samedi</label>
+                                    <label><input type="checkbox" name="disponibilites[]" value="dimanche"> Dimanche</label>
                                 </div>
                             </div>
-
                             <div class="form-group">
-                                <label for="frequence-souhaitee">Combien de fois par semaine souhaiteriez-vous vous entraîner ?</label>
-                                <select id="frequence-souhaitee" name="frequence-souhaitee">
-                                    <option value="">Je ne sais pas</option>
-                                    <option value="1">1 fois par semaine</option>
-                                    <option value="2">2 fois par semaine</option>
-                                    <option value="3">3 fois par semaine</option>
-                                    <option value="4+">4 fois ou plus</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="motivation-adhesion">Qu'est-ce qui vous attire chez Armor Tri Passion ? *</label>
-                                <textarea id="motivation-adhesion" name="motivation-adhesion" rows="4" placeholder="Ex: l'ambiance conviviale, l'accompagnement personnalisé, la découverte du triathlon, les événements locaux..."></textarea>
+                                <label for="motivation-adhesion">Qu'est-ce qui vous attire chez Armor Tri Passion ?</label>
+                                <textarea id="motivation-adhesion" name="motivation-adhesion" rows="3" placeholder="Ambiance conviviale, accompagnement, découverte d'une discipline, événements locaux..."></textarea>
                             </div>
                         </div>
 
-                        <!-- Section ÉVÉNEMENT (cachée par défaut) -->
-                        <div id="section-evenement" class="form-section conditional-section" style="display: none;">
-                            <h5>🏃‍♂️ Quel événement vous intéresse ?</h5>
-                            
+                        <!-- ÉVÉNEMENT -->
+                        <div id="section-evenement" class="form-section conditional-section" hidden>
+                            <h5>Quel événement vous intéresse ?</h5>
                             <div class="form-group">
-                                <label for="evenements-interesse">Événements qui vous intéressent *</label>
+                                <label>Événements qui vous intéressent</label>
                                 <div class="checkbox-group">
-                                    <label><input type="checkbox" name="evenements[]" value="fit-roz"> Fit Roz (28 février 2026) - Fitness Race</label>
-                                    <label><input type="checkbox" name="evenements[]" value="swim-roz"> Swim Roz (11 octobre 2026) - Swimrun</label>
-                                    <label><input type="checkbox" name="evenements[]" value="tro-enez-veur"> Tro Enez Veur (4 octobre 2026) - Trail</label>
+                                    <label><input type="checkbox" name="evenements[]" value="fit-roz"> Fit Roz (28 fév. 2026)</label>
+                                    <label><input type="checkbox" name="evenements[]" value="swim-roz"> Swim Roz (11 oct. 2026)</label>
+                                    <label><input type="checkbox" name="evenements[]" value="tro-enez-veur"> Tro Enez Veur (4 oct. 2026)</label>
                                 </div>
                             </div>
-
-                            <div class="form-group">
-                                <label for="niveau-evenement">Votre niveau dans cette discipline</label>
-                                <select id="niveau-evenement" name="niveau-evenement">
-                                    <option value="">Sélectionnez...</option>
-                                    <option value="debutant">Débutant - Première expérience</option>
-                                    <option value="occasionnel">Occasionnel - Quelques expériences</option>
-                                    <option value="regulier">Régulier - Je pratique souvent</option>
-                                    <option value="experimente">Expérimenté - Habitué des compétitions</option>
-                                </select>
-                            </div>
-
                             <div class="form-group">
                                 <label for="questions-evenement">Vos questions sur l'événement</label>
-                                <textarea id="questions-evenement" name="questions-evenement" rows="4" placeholder="Ex: niveau requis, matériel nécessaire, déroulement de la course, tarifs..."></textarea>
+                                <textarea id="questions-evenement" name="questions-evenement" rows="3" placeholder="Niveau requis, matériel, déroulement, tarifs..."></textarea>
                             </div>
                         </div>
 
-                        <!-- Section QUESTION (cachée par défaut) -->
-                        <div id="section-question" class="form-section conditional-section" style="display: none;">
-                            <h5>💬 Votre question</h5>
-                            
+                        <!-- QUESTION -->
+                        <div id="section-question" class="form-section conditional-section" hidden>
+                            <h5>Votre question</h5>
                             <div class="form-group">
-                                <label for="type-question">Type de demande</label>
-                                <select id="type-question" name="type-question">
-                                    <option value="">Sélectionnez...</option>
-                                    <option value="info-general">Informations générales sur l'association</option>
-                                    <option value="info-entrainement">Informations sur les entraînements</option>
-                                    <option value="info-evenement">Informations sur les événements</option>
-                                    <option value="tarifs">Questions sur les tarifs</option>
-                                    <option value="materiel">Conseils matériel</option>
-                                    <option value="autre">Autre</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="message-question">Votre question *</label>
-                                <textarea id="message-question" name="message-question" rows="5" placeholder="Posez-nous votre question en détail..." required></textarea>
+                                <label for="message-question">Votre message</label>
+                                <textarea id="message-question" name="message-question" rows="4" placeholder="Posez-nous votre question en détail..."></textarea>
                             </div>
                         </div>
 
-                        <!-- Section PARTENARIAT (cachée par défaut) -->
-                        <div id="section-partenariat" class="form-section conditional-section" style="display: none;">
-                            <h5>🤝 Demande de partenariat</h5>
-                            
+                        <!-- PARTENARIAT -->
+                        <div id="section-partenariat" class="form-section conditional-section" hidden>
+                            <h5>Demande de partenariat</h5>
                             <div class="form-group">
-                                <label for="entreprise">Nom de votre entreprise *</label>
+                                <label for="entreprise">Nom de votre entreprise</label>
                                 <input type="text" id="entreprise" name="entreprise">
                             </div>
-
                             <div class="form-group">
-                                <label for="secteur">Secteur d'activité</label>
-                                <input type="text" id="secteur" name="secteur" placeholder="Ex: Commerce, Services, Sport, Santé...">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="type-partenariat">Type de partenariat souhaité</label>
+                                <label for="type-partenariat">Formule envisagée</label>
                                 <select id="type-partenariat" name="type-partenariat">
                                     <option value="">Sélectionnez...</option>
-                                    <option value="bronze">Partenaire Bronze (300€/an)</option>
-                                    <option value="argent">Partenaire Argent (750€/an)</option>
-                                    <option value="or">Partenaire Or (1500€/an)</option>
-                                    <option value="sur-mesure">Partenariat sur-mesure</option>
-                                    <option value="evenementiel">Partenariat événementiel uniquement</option>
+                                    <option value="bronze">Bronze (300€/an)</option>
+                                    <option value="argent">Argent (750€/an)</option>
+                                    <option value="or">Or (1500€/an)</option>
+                                    <option value="sur-mesure">Sur-mesure</option>
+                                    <option value="evenementiel">Événementiel uniquement</option>
                                 </select>
                             </div>
-
                             <div class="form-group">
                                 <label for="message-partenariat">Votre demande</label>
-                                <textarea id="message-partenariat" name="message-partenariat" rows="4" placeholder="Décrivez votre projet de partenariat..."></textarea>
+                                <textarea id="message-partenariat" name="message-partenariat" rows="3" placeholder="Décrivez votre projet de partenariat..."></textarea>
                             </div>
                         </div>
 
-                        <!-- Message libre pour tous -->
-                        <div class="form-section">
-                            <div class="form-group">
-                                <label for="message-libre">Informations complémentaires</label>
-                                <textarea id="message-libre" name="message-libre" rows="3" placeholder="Ajoutez tout ce qui vous semble important..."></textarea>
-                            </div>
+                        <div class="form-group">
+                            <label for="message-libre">Informations complémentaires</label>
+                            <textarea id="message-libre" name="message-libre" rows="2" placeholder="Ajoutez tout ce qui vous semble important..."></textarea>
                         </div>
 
-                        <button type="submit" class="submit-button">Envoyer ma demande</button>
-                        <p class="form-note">* Champs obligatoires. Nous vous recontacterons dans les 48h maximum.</p>
+                        <button type="submit" class="btn btn-primary submit-button">Envoyer ma demande</button>
+                        <p class="form-note">* Champs obligatoires. Nous vous recontactons sous 48h maximum.</p>
+                        <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
                     </form>
                 </div>
             </div>
@@ -490,39 +421,38 @@
 
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="ATP-Logo-wText-100.jpg" alt="Armor Tri Passion" class="footer-logo-img">
-                </div>
-                <div class="footer-info">
-                    <p>&copy; 2026 Armor Tri Passion - Association loi 1901</p>
-                    <p>Perros-Guirec, Côtes d'Armor (22) - Bretagne</p>
-                </div>
-                <div class="footer-social">
-                    <p class="footer-social-label">Suivez-nous :</p>
-                    <div class="footer-social-links">
-                        <a href="https://facebook.com/asso.armortripassion" target="_blank" rel="noopener" class="footer-social-link facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://instagram.com/armortripassion" target="_blank" rel="noopener" class="footer-social-link instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="mailto:contact@armortripassion.fr" class="footer-social-link email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="ATP-Logo-wText-100.jpg" alt="Armor Tri Passion">
+                    <p>Plus qu'un club, une communauté multisports inclusive sur la Côte de Granit Rose.</p>
+                    <div class="footer-socials">
+                        <a href="https://facebook.com/asso.armortripassion" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/armortripassion" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#contact" aria-label="Contact"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
-                <div class="footer-links">
-                    <a href="#accueil">Accueil</a>
-                    <a href="#evenements">Événements</a>
-                    <a href="#galerie">Galerie</a>
-                    <a href="partenaires.html">Partenaires</a>
-                    <a href="https://armortripassion.s2.yapla.com/fr/espace-membres" target="_blank" rel="noopener">Espace Membres</a>
-                    <a href="#contact">Contact</a>
+                <div class="footer-col">
+                    <h5>Navigation</h5>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#club">Le club</a></li>
+                        <li><a href="#evenements">Événements</a></li>
+                        <li><a href="#galerie">Galerie</a></li>
+                        <li><a href="partenaires.html">Partenaires</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Nos événements</h5>
+                    <ul>
+                        <li><a href="swimroz.html">Swim Roz</a></li>
+                        <li><a href="#evenements">Tro Enez Veur</a></li>
+                        <li><a href="#evenements">Fit Roz</a></li>
+                        <li><a href="https://armortripassion.s2.yapla.com/fr/espace-membres" target="_blank" rel="noopener">Espace Membres</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Armor Tri Passion - Association Loi 1901 - RNA : W222009541</p>
+                <p>&copy; 2026 Armor Tri Passion — Association Loi 1901 — RNA : W222009541 — Perros-Guirec, Bretagne</p>
             </div>
         </div>
     </footer>
