@@ -1551,7 +1551,7 @@ footer {
 .map-legend .dot.swim { background: var(--sea); }
 .map-legend .dot.run { background: var(--coral); }
 
-.map-downloads { display: flex; gap: 0.5rem; }
+.map-downloads { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .map-downloads .btn { padding: 0.5rem 1rem; font-size: 0.85rem; }
 
 .parcours-map {
