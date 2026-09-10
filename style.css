@@ -1672,6 +1672,85 @@ footer {
 
 .lodging-card .meta i { color: var(--coral); }
 
+/* Hébergement en vedette (offre exclusive) */
+.lodging-featured {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--coral);
+    border-radius: var(--radius);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 24px;
+    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+}
+
+.lodging-featured:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+
+.lodging-featured .lodging-logo { height: 72px; margin-bottom: 1rem; }
+
+.lodging-featured .lodging-logo img { max-height: 72px; max-width: 200px; }
+
+.lodging-featured .type {
+    font-size: 0.8rem; font-weight: 600; color: var(--coral-600);
+    text-transform: uppercase; letter-spacing: 0.05em;
+}
+
+.lodging-featured h3 { font-size: 1.5rem; margin: 0.35rem 0 0.6rem; }
+
+.lodging-featured p { color: var(--slate); font-size: 0.97rem; margin-bottom: 1rem; }
+
+.lodging-featured .contact { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; color: var(--slate); font-size: 0.92rem; }
+
+.lodging-featured .contact span { display: inline-flex; align-items: center; gap: 0.4rem; }
+
+.lodging-featured .contact i { color: var(--coral); }
+
+/* Grille tarifaire de l'offre vedette */
+.lodging-rates {
+    background: var(--surface-alt);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.4rem;
+}
+
+.lodging-rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.lodging-rate .rate-label { color: var(--navy); font-weight: 600; font-size: 0.95rem; }
+
+.lodging-rate .rate-sub { display: block; color: var(--slate); font-weight: 400; font-size: 0.78rem; margin-top: 0.15rem; }
+
+.lodging-rate .rate-price { font-family: var(--font-display); font-weight: 700; color: var(--coral); font-size: 1.4rem; white-space: nowrap; }
+
+.lodging-rates .rate-note { color: var(--slate); font-size: 0.8rem; margin: 0.8rem 0 0; }
+
+/* Cartes hôtels secondaires (plus compactes) */
+.lodging-secondary { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+
+.lodging-secondary .lodging-card { padding: 1.3rem; }
+
+.lodging-secondary .lodging-logo { height: 48px; margin-bottom: 0.75rem; }
+
+.lodging-secondary .lodging-logo img { max-height: 48px; max-width: 130px; }
+
+.lodging-secondary .lodging-card h3 { font-size: 1.05rem; }
+
+.lodging-secondary .lodging-card p { font-size: 0.9rem; }
+
+@media (max-width: 720px) {
+    .lodging-featured { grid-template-columns: 1fr; gap: 1.25rem; padding: 1.5rem; }
+}
+
 /* FAQ (details/summary natif) */
 .faq { max-width: 800px; margin: 0 auto; }
 
