@@ -963,6 +963,18 @@ footer {
     font-size: 0.85rem;
 }
 
+.footer-bottom p + p { margin-top: 0.6rem; }
+
+.footer-bottom a,
+.footer-brand a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: underline;
+    transition: color 0.25s var(--ease);
+}
+
+.footer-bottom a:hover,
+.footer-brand a:hover { color: var(--coral-soft); }
+
 /* ---------- En-tête de sous-page (sans photo plein écran) ---------- */
 .page-header {
     background: linear-gradient(135deg, var(--navy) 0%, var(--navy-700) 60%, #1c4a6e 100%);
