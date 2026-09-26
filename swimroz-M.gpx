@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="EditGPX">
   <metadata>
-    <name>swimRoz M</name>
+    <name>swimRoz M nouvelle proposition</name>
   </metadata>
   <trk>
     <name><![CDATA[Nat1 M]]></name>
+    <extensions>
+      <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
+        <color>0000FF</color>
+        <opacity>1</opacity>
+        <width>4</width>
+      </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
+    </extensions>
     <trkseg>
       <trkpt lat="48.834088" lon="-3.492043">
         <ele>3.2</ele>
@@ -23,36 +31,45 @@
     <name><![CDATA[Cap1 M]]></name>
     <extensions>
       <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-        <color>ff4000</color>
+        <color>FF4000</color>
         <opacity>1</opacity>
         <width>4</width>
       </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
     </extensions>
     <trkseg>
       <trkpt lat="48.832948" lon="-3.486142">
         <ele>5.2</ele>
       </trkpt>
-      <trkpt lat="48.832454" lon="-3.486292">
-        <ele>4.9</ele>
+      <trkpt lat="48.832541" lon="-3.486288">
+        <ele>4.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>1</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.832107" lon="-3.486174">
-        <ele>6.4</ele>
+      <trkpt lat="48.832372" lon="-3.486193">
+        <ele>5.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>2</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.832192" lon="-3.485777">
-        <ele>6.3</ele>
+      <trkpt lat="48.832086" lon="-3.486117">
+        <ele>6.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>3</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832205" lon="-3.485806">
+        <ele>6.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>4</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -60,7 +77,7 @@
         <ele>6.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>4</visugpx:node>
+            <visugpx:node>5</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -68,15 +85,55 @@
         <ele>7.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>5</visugpx:node>
+            <visugpx:node>6</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.831963" lon="-3.484704">
-        <ele>8.2</ele>
+      <trkpt lat="48.831859" lon="-3.484433">
+        <ele>9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>6</visugpx:node>
+            <visugpx:node>7</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831967" lon="-3.484435">
+        <ele>9.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>8</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832101" lon="-3.484552">
+        <ele>9.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>9</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832203" lon="-3.484634">
+        <ele>9.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>10</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832289" lon="-3.484645">
+        <ele>10.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>11</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832326" lon="-3.484643">
+        <ele>11</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>12</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -84,7 +141,39 @@
         <ele>11.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>7</visugpx:node>
+            <visugpx:node>13</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832393" lon="-3.484425">
+        <ele>11.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>14</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832459" lon="-3.484338">
+        <ele>11.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>15</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832708" lon="-3.483875">
+        <ele>13.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>16</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832956" lon="-3.483659">
+        <ele>15.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>17</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -92,147 +181,67 @@
         <ele>15.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>8</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.833603" lon="-3.483503">
-        <ele>18.2</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>9</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.834025" lon="-3.482698">
-        <ele>17</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>10</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.833631" lon="-3.482205">
-        <ele>17.2</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>11</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.833323" lon="-3.481144">
-        <ele>22.2</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>12</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.832713" lon="-3.480896">
-        <ele>20.8</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>13</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.832105" lon="-3.482280">
-        <ele>15.2</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>14</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.831230" lon="-3.482312">
-        <ele>13.2</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>15</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.830664" lon="-3.478986">
-        <ele>21</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>16</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.828012" lon="-3.479187">
-        <ele>18.2</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>17</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.827353" lon="-3.479187">
-        <ele>19.5</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>18</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.827053" lon="-3.478959">
-        <ele>19</ele>
+      <trkpt lat="48.833087" lon="-3.483464">
+        <ele>15.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>19</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.826663" lon="-3.478276">
-        <ele>16.2</ele>
+      <trkpt lat="48.833434" lon="-3.482735">
+        <ele>15.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>20</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.826493" lon="-3.477760">
-        <ele>18.3</ele>
+      <trkpt lat="48.833527" lon="-3.482618">
+        <ele>16.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>21</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.825864" lon="-3.478216">
-        <ele>18.8</ele>
+      <trkpt lat="48.833608" lon="-3.482494">
+        <ele>17</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>22</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.825334" lon="-3.478276">
-        <ele>20.8</ele>
+      <trkpt lat="48.833645" lon="-3.482310">
+        <ele>17.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>23</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.824944" lon="-3.478170">
-        <ele>21.6</ele>
+      <trkpt lat="48.833660" lon="-3.482159">
+        <ele>17.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>24</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.824924" lon="-3.478701">
-        <ele>20.6</ele>
+      <trkpt lat="48.833661" lon="-3.482030">
+        <ele>18.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>25</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.825204" lon="-3.478823">
+      <trkpt lat="48.833572" lon="-3.481745">
         <ele>19.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
@@ -240,19 +249,547 @@
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.825294" lon="-3.479171">
-        <ele>19.9</ele>
+      <trkpt lat="48.833493" lon="-3.481438">
+        <ele>22</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>27</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.825294" lon="-3.479581">
-        <ele>20.5</ele>
+      <trkpt lat="48.833313" lon="-3.481167">
+        <ele>22.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>28</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.833118" lon="-3.481015">
+        <ele>21.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>29</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832904" lon="-3.480994">
+        <ele>21.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>30</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832716" lon="-3.480916">
+        <ele>20.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>31</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832660" lon="-3.480973">
+        <ele>20.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>32</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832614" lon="-3.481011">
+        <ele>20.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>33</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832438" lon="-3.481571">
+        <ele>20.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>34</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832323" lon="-3.481880">
+        <ele>18.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>35</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832091" lon="-3.482318">
+        <ele>15</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>36</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831443" lon="-3.482286">
+        <ele>13</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>37</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831381" lon="-3.482367">
+        <ele>12.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>38</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831253" lon="-3.482358">
+        <ele>13</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>39</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831269" lon="-3.481925">
+        <ele>13.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>40</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831167" lon="-3.481446">
+        <ele>14</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>41</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831015" lon="-3.480975">
+        <ele>15</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>42</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830964" lon="-3.480859">
+        <ele>15</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>43</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830892" lon="-3.480584">
+        <ele>15</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>44</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830810" lon="-3.480196">
+        <ele>16.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>45</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830771" lon="-3.479869">
+        <ele>19.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>46</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830706" lon="-3.479665">
+        <ele>20.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>47</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830694" lon="-3.479321">
+        <ele>21.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>48</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830664" lon="-3.478986">
+        <ele>21</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>49</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830593" lon="-3.479022">
+        <ele>21.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>50</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830460" lon="-3.479044">
+        <ele>22.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>51</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830261" lon="-3.479024">
+        <ele>23.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>52</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830182" lon="-3.478976">
+        <ele>23.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>53</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830006" lon="-3.479065">
+        <ele>24.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>54</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829897" lon="-3.479088">
+        <ele>23.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>55</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829779" lon="-3.479046">
+        <ele>21.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>56</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829679" lon="-3.478970">
+        <ele>19.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>57</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829337" lon="-3.478972">
+        <ele>17.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>58</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829147" lon="-3.478989">
+        <ele>16.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>59</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.828906" lon="-3.479088">
+        <ele>15.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>60</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.828666" lon="-3.479170">
+        <ele>16.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>61</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.828478" lon="-3.479289">
+        <ele>17.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>62</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.828285" lon="-3.479293">
+        <ele>18.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>63</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.828003" lon="-3.479162">
+        <ele>18.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>64</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827846" lon="-3.479107">
+        <ele>18.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>65</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827529" lon="-3.479200">
+        <ele>19.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>66</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827406" lon="-3.479215">
+        <ele>19.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>67</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827353" lon="-3.479187">
+        <ele>19.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>68</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827240" lon="-3.479175">
+        <ele>19.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>69</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827157" lon="-3.479014">
+        <ele>18.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>70</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827053" lon="-3.478959">
+        <ele>19</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>71</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827046" lon="-3.478857">
+        <ele>18.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>72</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827003" lon="-3.478764">
+        <ele>18</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>73</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826663" lon="-3.478276">
+        <ele>16.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>74</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826585" lon="-3.478140">
+        <ele>17</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>75</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826557" lon="-3.477956">
+        <ele>17.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>76</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826517" lon="-3.477783">
+        <ele>18.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>77</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826049" lon="-3.478126">
+        <ele>18.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>78</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825716" lon="-3.478236">
+        <ele>19.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>79</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825334" lon="-3.478276">
+        <ele>20.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>80</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825223" lon="-3.478288">
+        <ele>21.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>81</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.824952" lon="-3.478144">
+        <ele>21.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>82</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.824899" lon="-3.478117">
+        <ele>21.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>83</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.824884" lon="-3.478227">
+        <ele>21.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>84</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.824857" lon="-3.478392">
+        <ele>20.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>85</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.824865" lon="-3.478563">
+        <ele>20.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>86</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.824929" lon="-3.478794">
+        <ele>20.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>87</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825042" lon="-3.478813">
+        <ele>20.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>88</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825160" lon="-3.478868">
+        <ele>20</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>89</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825243" lon="-3.478984">
+        <ele>20</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>90</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825317" lon="-3.479171">
+        <ele>19.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>91</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825342" lon="-3.479403">
+        <ele>20.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>92</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825304" lon="-3.479583">
+        <ele>20.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>93</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825239" lon="-3.479735">
+        <ele>21</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>94</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -260,7 +797,31 @@
         <ele>21.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>29</visugpx:node>
+            <visugpx:node>95</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825637" lon="-3.479587">
+        <ele>21.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>96</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825732" lon="-3.479543">
+        <ele>21.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>97</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825801" lon="-3.479526">
+        <ele>21.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>98</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -268,7 +829,23 @@
         <ele>21.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>30</visugpx:node>
+            <visugpx:node>99</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825974" lon="-3.479606">
+        <ele>21.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>100</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826018" lon="-3.479661">
+        <ele>21.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>101</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -276,47 +853,95 @@
         <ele>21.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>31</visugpx:node>
+            <visugpx:node>102</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.826203" lon="-3.479854">
-        <ele>21.5</ele>
+      <trkpt lat="48.826145" lon="-3.479841">
+        <ele>21.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>32</visugpx:node>
+            <visugpx:node>103</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.826473" lon="-3.479885">
-        <ele>21.9</ele>
+      <trkpt lat="48.826220" lon="-3.479890">
+        <ele>21.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>33</visugpx:node>
+            <visugpx:node>104</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.826793" lon="-3.480097">
-        <ele>22.7</ele>
+      <trkpt lat="48.826331" lon="-3.479919">
+        <ele>21.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>34</visugpx:node>
+            <visugpx:node>105</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.827283" lon="-3.480461">
-        <ele>19.7</ele>
+      <trkpt lat="48.826435" lon="-3.479879">
+        <ele>21.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>35</visugpx:node>
+            <visugpx:node>106</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.826523" lon="-3.481994">
-        <ele>17.6</ele>
+      <trkpt lat="48.826480" lon="-3.479955">
+        <ele>22.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>36</visugpx:node>
+            <visugpx:node>107</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826536" lon="-3.480004">
+        <ele>22.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>108</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826708" lon="-3.480055">
+        <ele>22.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>109</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826800" lon="-3.480046">
+        <ele>22.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>110</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827028" lon="-3.480256">
+        <ele>21.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>111</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827310" lon="-3.480419">
+        <ele>20</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>112</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826461" lon="-3.482071">
+        <ele>17.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>113</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -324,7 +949,7 @@
         <ele>18</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>37</visugpx:node>
+            <visugpx:node>114</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -332,15 +957,23 @@
         <ele>19</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>38</visugpx:node>
+            <visugpx:node>115</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.826863" lon="-3.483192">
+      <trkpt lat="48.826876" lon="-3.483219">
         <ele>19</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>39</visugpx:node>
+            <visugpx:node>116</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826781" lon="-3.483371">
+        <ele>18.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>117</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -348,15 +981,23 @@
         <ele>18.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>40</visugpx:node>
+            <visugpx:node>118</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.826503" lon="-3.483830">
+      <trkpt lat="48.826510" lon="-3.483594">
+        <ele>17.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>119</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826532" lon="-3.483828">
         <ele>17.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>41</visugpx:node>
+            <visugpx:node>120</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -364,39 +1005,87 @@
         <ele>13.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>42</visugpx:node>
+            <visugpx:node>121</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.826833" lon="-3.484816">
-        <ele>12.3</ele>
+      <trkpt lat="48.826886" lon="-3.484725">
+        <ele>13</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>43</visugpx:node>
+            <visugpx:node>122</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.827413" lon="-3.485544">
+      <trkpt lat="48.826857" lon="-3.484880">
+        <ele>11.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>123</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827022" lon="-3.485023">
+        <ele>10.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>124</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827170" lon="-3.485191">
+        <ele>9.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>125</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827414" lon="-3.485519">
+        <ele>6.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>126</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827562" lon="-3.485555">
+        <ele>6.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>127</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827634" lon="-3.485580">
         <ele>6.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>44</visugpx:node>
+            <visugpx:node>128</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.827833" lon="-3.485711">
-        <ele>5.7</ele>
+      <trkpt lat="48.827832" lon="-3.485755">
+        <ele>5.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>45</visugpx:node>
+            <visugpx:node>129</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.828142" lon="-3.486105">
-        <ele>6</ele>
+      <trkpt lat="48.828142" lon="-3.486128">
+        <ele>5.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>46</visugpx:node>
+            <visugpx:node>130</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.828453" lon="-3.486134">
+        <ele>5.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>131</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -404,7 +1093,15 @@
         <ele>5.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>47</visugpx:node>
+            <visugpx:node>132</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.828835" lon="-3.486064">
+        <ele>5.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>133</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -412,7 +1109,15 @@
         <ele>5.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>48</visugpx:node>
+            <visugpx:node>134</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829412" lon="-3.486532">
+        <ele>5.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>135</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -420,7 +1125,15 @@
         <ele>5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>49</visugpx:node>
+            <visugpx:node>136</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829870" lon="-3.487152">
+        <ele>4.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>137</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -428,15 +1141,39 @@
         <ele>5.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>50</visugpx:node>
+            <visugpx:node>138</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.829981" lon="-3.488366">
-        <ele>5.8</ele>
+      <trkpt lat="48.830002" lon="-3.487966">
+        <ele>6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>51</visugpx:node>
+            <visugpx:node>139</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830002" lon="-3.488222">
+        <ele>6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>140</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830001" lon="-3.488364">
+        <ele>6.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>141</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829996" lon="-3.488480">
+        <ele>6.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>142</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -444,23 +1181,47 @@
         <ele>8.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>52</visugpx:node>
+            <visugpx:node>143</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.829861" lon="-3.489595">
-        <ele>7.4</ele>
+      <trkpt lat="48.829875" lon="-3.488998">
+        <ele>8.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>53</visugpx:node>
+            <visugpx:node>144</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.829731" lon="-3.490354">
-        <ele>3.6</ele>
+      <trkpt lat="48.829886" lon="-3.489159">
+        <ele>9.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>54</visugpx:node>
+            <visugpx:node>145</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829899" lon="-3.489525">
+        <ele>8.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>146</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829826" lon="-3.489984">
+        <ele>3.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>147</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829779" lon="-3.490388">
+        <ele>4.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>148</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -468,7 +1229,7 @@
         <ele>1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>55</visugpx:node>
+            <visugpx:node>149</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -478,55 +1239,51 @@
     <name><![CDATA[Nat2 M]]></name>
     <extensions>
       <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-        <color>00FF00</color>
+        <color>0000FF</color>
         <opacity>1</opacity>
         <width>4</width>
       </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
     </extensions>
     <trkseg>
       <trkpt lat="48.829300" lon="-3.490200">
         <ele>1</ele>
       </trkpt>
       <trkpt lat="48.829250" lon="-3.491310">
+      </trkpt>
+      <trkpt lat="48.830080" lon="-3.491370">
+        <ele>2.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>1</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.830080" lon="-3.491370">
-        <ele>2.3</ele>
+      <trkpt lat="48.830860" lon="-3.491490">
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>2</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.830860" lon="-3.491490">
+      <trkpt lat="48.832070" lon="-3.491630">
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>3</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.832070" lon="-3.491630">
+      <trkpt lat="48.832590" lon="-3.491670">
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>4</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.832590" lon="-3.491670">
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>5</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
       <trkpt lat="48.832940" lon="-3.490930">
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>6</visugpx:node>
+            <visugpx:node>5</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -534,7 +1291,7 @@
         <ele>5.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>7</visugpx:node>
+            <visugpx:node>6</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -544,23 +1301,53 @@
     <name><![CDATA[Cap2 M]]></name>
     <extensions>
       <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-        <color>ff0000</color>
+        <color>FF0000</color>
         <opacity>1</opacity>
         <width>4</width>
       </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
     </extensions>
     <trkseg>
       <trkpt lat="48.832060" lon="-3.489510">
         <ele>6</ele>
       </trkpt>
-      <trkpt lat="48.831920" lon="-3.489920">
-        <ele>13.7</ele>
-      </trkpt>
-      <trkpt lat="48.831670" lon="-3.489850">
-        <ele>15.3</ele>
+      <trkpt lat="48.831965" lon="-3.489792">
+        <ele>8.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>1</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831904" lon="-3.489880">
+        <ele>12.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>2</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831701" lon="-3.489789">
+        <ele>13.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>3</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831621" lon="-3.489792">
+        <ele>14.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>4</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831589" lon="-3.489868">
+        <ele>17.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>5</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -568,7 +1355,7 @@
         <ele>16.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>2</visugpx:node>
+            <visugpx:node>6</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -576,15 +1363,31 @@
         <ele>10.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>3</visugpx:node>
+            <visugpx:node>7</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.831490" lon="-3.488620">
-        <ele>12.7</ele>
+      <trkpt lat="48.831599" lon="-3.488924">
+        <ele>11.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>4</visugpx:node>
+            <visugpx:node>8</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831517" lon="-3.488620">
+        <ele>12.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>9</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831292" lon="-3.488393">
+        <ele>13.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>10</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -592,7 +1395,7 @@
         <ele>14.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>5</visugpx:node>
+            <visugpx:node>11</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -600,7 +1403,31 @@
         <ele>13.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>6</visugpx:node>
+            <visugpx:node>12</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831344" lon="-3.487611">
+        <ele>12.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>13</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831167" lon="-3.487634">
+        <ele>12.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>14</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830967" lon="-3.487604">
+        <ele>10.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>15</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -608,7 +1435,15 @@
         <ele>9.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>7</visugpx:node>
+            <visugpx:node>16</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830797" lon="-3.487323">
+        <ele>8.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>17</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -616,7 +1451,31 @@
         <ele>8.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>8</visugpx:node>
+            <visugpx:node>18</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830663" lon="-3.487016">
+        <ele>8.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>19</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830430" lon="-3.486891">
+        <ele>7.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>20</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830228" lon="-3.486739">
+        <ele>8.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>21</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -624,7 +1483,15 @@
         <ele>9.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>9</visugpx:node>
+            <visugpx:node>22</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.829939" lon="-3.486143">
+        <ele>9.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>23</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -632,7 +1499,15 @@
         <ele>10.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>10</visugpx:node>
+            <visugpx:node>24</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.830103" lon="-3.485817">
+        <ele>11.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>25</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -640,7 +1515,7 @@
         <ele>11</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>11</visugpx:node>
+            <visugpx:node>26</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -648,7 +1523,15 @@
         <ele>10.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>12</visugpx:node>
+            <visugpx:node>27</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831182" lon="-3.486087">
+        <ele>10.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>28</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -656,47 +1539,119 @@
         <ele>9.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>13</visugpx:node>
+            <visugpx:node>29</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.831460" lon="-3.487460">
-        <ele>12</ele>
+      <trkpt lat="48.831502" lon="-3.486803">
+        <ele>9.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>14</visugpx:node>
+            <visugpx:node>30</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.831710" lon="-3.487570">
-        <ele>13.9</ele>
+      <trkpt lat="48.831445" lon="-3.487513">
+        <ele>12.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>15</visugpx:node>
+            <visugpx:node>31</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.831810" lon="-3.487340">
-        <ele>10.9</ele>
+      <trkpt lat="48.831507" lon="-3.487507">
+        <ele>12.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>16</visugpx:node>
+            <visugpx:node>32</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.832090" lon="-3.487090">
+      <trkpt lat="48.831569" lon="-3.487501">
+        <ele>12.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>33</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831691" lon="-3.487477">
+        <ele>12.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>34</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831746" lon="-3.487450">
+        <ele>12.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>35</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831803" lon="-3.487327">
+        <ele>10.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>36</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831897" lon="-3.487276">
+        <ele>9.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>37</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.831946" lon="-3.487255">
+        <ele>9.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>38</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832016" lon="-3.487145">
+        <ele>7.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>39</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832024" lon="-3.487078">
+        <ele>6.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>40</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832087" lon="-3.487071">
         <ele>5.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>17</visugpx:node>
+            <visugpx:node>41</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.832140" lon="-3.486850">
-        <ele>5.6</ele>
+      <trkpt lat="48.832146" lon="-3.486984">
+        <ele>4.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>18</visugpx:node>
+            <visugpx:node>42</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.832216" lon="-3.487175">
+        <ele>3.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>43</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -706,32 +1661,41 @@
     <name><![CDATA[Nat3 M]]></name>
     <extensions>
       <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-        <color>00FFFF</color>
+        <color>0000FF</color>
         <opacity>1</opacity>
         <width>4</width>
       </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
     </extensions>
     <trkseg>
       <trkpt lat="48.832250" lon="-3.487110">
         <ele>3.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>4</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
       </trkpt>
       <trkpt lat="48.832990" lon="-3.488440">
+      </trkpt>
+      <trkpt lat="48.833530" lon="-3.487710">
+        <ele>3.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>1</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.833530" lon="-3.487710">
-        <ele>3.2</ele>
+      <trkpt lat="48.833287" lon="-3.486767">
+        <ele>1.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>2</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.833070" lon="-3.486380">
-        <ele>3.1</ele>
+      <trkpt lat="48.833592" lon="-3.486502">
+        <ele>4.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>3</visugpx:node>
@@ -744,23 +1708,45 @@
     <name><![CDATA[CAP3 M]]></name>
     <extensions>
       <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-        <color>ff0000</color>
+        <color>FF0000</color>
         <opacity>1</opacity>
         <width>4</width>
       </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
     </extensions>
     <trkseg>
-      <trkpt lat="48.833050" lon="-3.486010">
-        <ele>6.4</ele>
+      <trkpt lat="48.833626" lon="-3.486488">
+        <ele>4.6</ele>
       </trkpt>
-      <trkpt lat="48.833760" lon="-3.486230">
-        <ele>9</ele>
+      <trkpt lat="48.833711" lon="-3.486408">
+        <ele>6.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>1</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.833794" lon="-3.486413">
+        <ele>8.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>2</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.833956" lon="-3.486078">
+        <ele>12.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>3</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
       </trkpt>
       <trkpt lat="48.834140" lon="-3.485610">
         <ele>14.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>1</visugpx:node>
+            <visugpx:node>4</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -768,39 +1754,63 @@
         <ele>15.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>2</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.834730" lon="-3.485230">
-        <ele>16.3</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>3</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.835100" lon="-3.485170">
-        <ele>15.9</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>4</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.835510" lon="-3.485280">
-        <ele>13.3</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>5</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.836450" lon="-3.483000">
-        <ele>17.5</ele>
+      <trkpt lat="48.834715" lon="-3.485386">
+        <ele>16.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>6</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.834819" lon="-3.485354">
+        <ele>16.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>7</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.835098" lon="-3.485193">
+        <ele>15.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>8</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.835517" lon="-3.485335">
+        <ele>13.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>9</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.835882" lon="-3.484584">
+        <ele>14.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>10</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.836174" lon="-3.484190">
+        <ele>15.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>11</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.836474" lon="-3.483047">
+        <ele>17.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>12</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -808,7 +1818,23 @@
         <ele>12.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>7</visugpx:node>
+            <visugpx:node>13</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.836717" lon="-3.482197">
+        <ele>11.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>14</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.836620" lon="-3.482138">
+        <ele>11.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>15</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -816,7 +1842,7 @@
         <ele>10.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>8</visugpx:node>
+            <visugpx:node>16</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -824,7 +1850,7 @@
         <ele>6.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>9</visugpx:node>
+            <visugpx:node>17</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -832,7 +1858,7 @@
         <ele>6.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>10</visugpx:node>
+            <visugpx:node>18</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -840,7 +1866,7 @@
         <ele>7.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>11</visugpx:node>
+            <visugpx:node>19</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -848,7 +1874,7 @@
         <ele>7.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>12</visugpx:node>
+            <visugpx:node>20</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -856,7 +1882,7 @@
         <ele>8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>13</visugpx:node>
+            <visugpx:node>21</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -864,7 +1890,7 @@
         <ele>10.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>14</visugpx:node>
+            <visugpx:node>22</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -872,7 +1898,7 @@
         <ele>18.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>15</visugpx:node>
+            <visugpx:node>23</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -880,7 +1906,15 @@
         <ele>17.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>16</visugpx:node>
+            <visugpx:node>24</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.836712" lon="-3.477849">
+        <ele>16.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>25</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -888,7 +1922,7 @@
         <ele>14.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>17</visugpx:node>
+            <visugpx:node>26</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -896,15 +1930,23 @@
         <ele>12.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>18</visugpx:node>
+            <visugpx:node>27</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.836140" lon="-3.476840">
-        <ele>14</ele>
+      <trkpt lat="48.836149" lon="-3.476832">
+        <ele>13.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>19</visugpx:node>
+            <visugpx:node>28</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.836098" lon="-3.476712">
+        <ele>12.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>29</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -912,7 +1954,7 @@
         <ele>12.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>20</visugpx:node>
+            <visugpx:node>30</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -920,7 +1962,7 @@
         <ele>16.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>21</visugpx:node>
+            <visugpx:node>31</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -928,7 +1970,7 @@
         <ele>19</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>22</visugpx:node>
+            <visugpx:node>32</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -936,7 +1978,7 @@
         <ele>16.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>23</visugpx:node>
+            <visugpx:node>33</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -944,7 +1986,7 @@
         <ele>14.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>24</visugpx:node>
+            <visugpx:node>34</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -952,7 +1994,7 @@
         <ele>12.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>25</visugpx:node>
+            <visugpx:node>35</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -960,7 +2002,7 @@
         <ele>8.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>26</visugpx:node>
+            <visugpx:node>36</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -968,7 +2010,7 @@
         <ele>7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>27</visugpx:node>
+            <visugpx:node>37</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -976,7 +2018,7 @@
         <ele>6.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>28</visugpx:node>
+            <visugpx:node>38</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -986,35 +2028,36 @@
     <name><![CDATA[Nat 4 M]]></name>
     <extensions>
       <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-        <color>000088</color>
+        <color>0000FF</color>
         <opacity>1</opacity>
         <width>4</width>
       </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
     </extensions>
     <trkseg>
       <trkpt lat="48.833360" lon="-3.475760">
         <ele>6.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>3</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
       </trkpt>
-      <trkpt lat="48.831070" lon="-3.472180">
+      <trkpt lat="48.831494" lon="-3.470553">
+      </trkpt>
+      <trkpt lat="48.829250" lon="-3.472450">
+        <ele>2.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>1</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.829250" lon="-3.472450">
-        <ele>2.6</ele>
+      <trkpt lat="48.829032" lon="-3.472973">
+        <ele>3.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>2</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.829230" lon="-3.473030">
-        <ele>3.9</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>3</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1024,10 +2067,11 @@
     <name><![CDATA[Cap 4 M]]></name>
     <extensions>
       <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-        <color>ff0000</color>
+        <color>FF0000</color>
         <opacity>1</opacity>
         <width>4</width>
       </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
     </extensions>
     <trkseg>
       <trkpt lat="48.829050" lon="-3.473360">
@@ -1049,11 +2093,27 @@
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
+      <trkpt lat="48.828170" lon="-3.473077">
+        <ele>15.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>3</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
       <trkpt lat="48.827970" lon="-3.472910">
         <ele>15.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>3</visugpx:node>
+            <visugpx:node>4</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827741" lon="-3.472592">
+        <ele>20.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>5</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1061,7 +2121,7 @@
         <ele>18.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>4</visugpx:node>
+            <visugpx:node>6</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1069,7 +2129,7 @@
         <ele>19.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>5</visugpx:node>
+            <visugpx:node>7</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1077,15 +2137,23 @@
         <ele>17.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>6</visugpx:node>
+            <visugpx:node>8</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.827460" lon="-3.471140">
-        <ele>13.8</ele>
+      <trkpt lat="48.827550" lon="-3.471382">
+        <ele>17.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>7</visugpx:node>
+            <visugpx:node>9</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.827439" lon="-3.471170">
+        <ele>14.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>10</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1093,7 +2161,7 @@
         <ele>13.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>8</visugpx:node>
+            <visugpx:node>11</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1101,15 +2169,39 @@
         <ele>15.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>9</visugpx:node>
+            <visugpx:node>12</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.825910" lon="-3.471130">
-        <ele>18.4</ele>
+      <trkpt lat="48.826268" lon="-3.471197">
+        <ele>15.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>10</visugpx:node>
+            <visugpx:node>13</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.826072" lon="-3.471154">
+        <ele>17</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>14</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825927" lon="-3.471047">
+        <ele>16.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>15</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.825615" lon="-3.470674">
+        <ele>17.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>16</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1117,7 +2209,31 @@
         <ele>13.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>11</visugpx:node>
+            <visugpx:node>17</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.824960" lon="-3.469767">
+        <ele>17.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>18</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.824467" lon="-3.469290">
+        <ele>16.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>19</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.823997" lon="-3.468920">
+        <ele>18.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>20</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1125,7 +2241,23 @@
         <ele>22.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>12</visugpx:node>
+            <visugpx:node>21</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.823358" lon="-3.468531">
+        <ele>21.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>22</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.823238" lon="-3.468351">
+        <ele>17.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>23</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1133,23 +2265,79 @@
         <ele>18.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>13</visugpx:node>
+            <visugpx:node>24</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.821870" lon="-3.464920">
-        <ele>24</ele>
+      <trkpt lat="48.822131" lon="-3.465602">
+        <ele>19.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>14</visugpx:node>
+            <visugpx:node>25</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.821390" lon="-3.463590">
-        <ele>28.1</ele>
+      <trkpt lat="48.821995" lon="-3.465285">
+        <ele>23.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>15</visugpx:node>
+            <visugpx:node>26</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.821974" lon="-3.465052">
+        <ele>22.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>27</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.821792" lon="-3.464735">
+        <ele>20.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>28</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.821733" lon="-3.464486">
+        <ele>19.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>29</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.821504" lon="-3.463939">
+        <ele>21.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>30</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.821477" lon="-3.463705">
+        <ele>21.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>31</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.821356" lon="-3.463464">
+        <ele>23.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>32</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.821066" lon="-3.463126">
+        <ele>20.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>33</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1157,39 +2345,103 @@
         <ele>20.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>16</visugpx:node>
+            <visugpx:node>34</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.820690" lon="-3.462780">
-        <ele>20.5</ele>
+      <trkpt lat="48.820794" lon="-3.462954">
+        <ele>22.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>17</visugpx:node>
+            <visugpx:node>35</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.820400" lon="-3.461770">
-        <ele>18.5</ele>
+      <trkpt lat="48.820709" lon="-3.462767">
+        <ele>19.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>18</visugpx:node>
+            <visugpx:node>36</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.819530" lon="-3.460290">
-        <ele>19.9</ele>
+      <trkpt lat="48.820649" lon="-3.462383">
+        <ele>15.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>19</visugpx:node>
+            <visugpx:node>37</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.818610" lon="-3.461060">
-        <ele>22.3</ele>
+      <trkpt lat="48.820462" lon="-3.461729">
+        <ele>15.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>20</visugpx:node>
+            <visugpx:node>38</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.820241" lon="-3.461302">
+        <ele>16.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>39</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.820029" lon="-3.461104">
+        <ele>18.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>40</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.819824" lon="-3.460806">
+        <ele>22.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>41</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.819665" lon="-3.460428">
+        <ele>20.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>42</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.819529" lon="-3.460321">
+        <ele>20.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>43</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.819121" lon="-3.460739">
+        <ele>25.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>44</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.818888" lon="-3.460967">
+        <ele>25.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>45</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.818680" lon="-3.461125">
+        <ele>25.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>46</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1197,31 +2449,87 @@
         <ele>18.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>21</visugpx:node>
+            <visugpx:node>47</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.817010" lon="-3.460860">
-        <ele>7.9</ele>
+      <trkpt lat="48.817071" lon="-3.460822">
+        <ele>7.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>22</visugpx:node>
+            <visugpx:node>48</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.816750" lon="-3.460340">
-        <ele>6.4</ele>
+      <trkpt lat="48.816903" lon="-3.460626">
+        <ele>6.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>23</visugpx:node>
+            <visugpx:node>49</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.817220" lon="-3.460080">
-        <ele>3</ele>
+      <trkpt lat="48.816850" lon="-3.460444">
+        <ele>6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>24</visugpx:node>
+            <visugpx:node>50</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816886" lon="-3.460420">
+        <ele>5.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>51</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816930" lon="-3.460487">
+        <ele>5.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>52</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.817018" lon="-3.460447">
+        <ele>4.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>53</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.817080" lon="-3.460428">
+        <ele>4.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>54</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.817152" lon="-3.460385">
+        <ele>3.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>55</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.817221" lon="-3.460315">
+        <ele>3.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>56</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.817392" lon="-3.460101">
+        <ele>2.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>57</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1231,27 +2539,23 @@
     <name><![CDATA[Nat5 M]]></name>
     <extensions>
       <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-        <color>880000</color>
+        <color>0000FF</color>
         <opacity>1</opacity>
         <width>4</width>
       </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
     </extensions>
     <trkseg>
       <trkpt lat="48.817390" lon="-3.459960">
         <ele>2.3</ele>
       </trkpt>
       <trkpt lat="48.818470" lon="-3.458890">
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>1</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
       </trkpt>
       <trkpt lat="48.816920" lon="-3.451790">
         <ele>1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>2</visugpx:node>
+            <visugpx:node>1</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1259,7 +2563,7 @@
         <ele>4.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>3</visugpx:node>
+            <visugpx:node>2</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1269,20 +2573,45 @@
     <name><![CDATA[Cap 5 M]]></name>
     <extensions>
       <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-        <color>ff0000</color>
+        <color>FF0000</color>
         <opacity>1</opacity>
         <width>4</width>
       </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
     </extensions>
     <trkseg>
-      <trkpt lat="48.815540" lon="-3.454560">
-        <ele>7</ele>
+      <trkpt lat="48.815904" lon="-3.453897">
+        <ele>2.7</ele>
       </trkpt>
-      <trkpt lat="48.815560" lon="-3.453830">
-        <ele>10.1</ele>
+      <trkpt lat="48.815632" lon="-3.453886">
+        <ele>8.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>1</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815607" lon="-3.454052">
+        <ele>7.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>2</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815576" lon="-3.454059">
+        <ele>8.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>3</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815580" lon="-3.453834">
+        <ele>9.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>4</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1290,7 +2619,7 @@
         <ele>17.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>2</visugpx:node>
+            <visugpx:node>5</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1298,7 +2627,7 @@
         <ele>20</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>3</visugpx:node>
+            <visugpx:node>6</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1306,7 +2635,7 @@
         <ele>23</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>4</visugpx:node>
+            <visugpx:node>7</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1314,7 +2643,15 @@
         <ele>30.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>5</visugpx:node>
+            <visugpx:node>8</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815529" lon="-3.450050">
+        <ele>37.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>9</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1322,7 +2659,15 @@
         <ele>42.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>6</visugpx:node>
+            <visugpx:node>10</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815928" lon="-3.449369">
+        <ele>43.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>11</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1330,7 +2675,15 @@
         <ele>45.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>7</visugpx:node>
+            <visugpx:node>12</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816041" lon="-3.448822">
+        <ele>44.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>13</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1338,7 +2691,7 @@
         <ele>44</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>8</visugpx:node>
+            <visugpx:node>14</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1346,7 +2699,7 @@
         <ele>43.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>9</visugpx:node>
+            <visugpx:node>15</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1354,55 +2707,55 @@
         <ele>45.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>10</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.816180" lon="-3.447620">
-        <ele>42.1</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>11</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.816610" lon="-3.447070">
-        <ele>39.5</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>12</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.816740" lon="-3.446780">
-        <ele>42.9</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>13</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.816900" lon="-3.446560">
-        <ele>40.4</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>14</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.816780" lon="-3.446010">
-        <ele>44.6</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>15</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.816930" lon="-3.445620">
-        <ele>44.5</ele>
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>16</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816155" lon="-3.447316">
+        <ele>48</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>17</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816340" lon="-3.446952">
+        <ele>48.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>18</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816355" lon="-3.446360">
+        <ele>50.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>19</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816205" lon="-3.446163">
+        <ele>50.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>20</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816285" lon="-3.446004">
+        <ele>49.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>21</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816435" lon="-3.445609">
+        <ele>49</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>22</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1410,7 +2763,15 @@
         <ele>49.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>17</visugpx:node>
+            <visugpx:node>23</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.817235" lon="-3.444976">
+        <ele>52.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>24</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1418,7 +2779,15 @@
         <ele>55.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>18</visugpx:node>
+            <visugpx:node>25</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.817871" lon="-3.444536">
+        <ele>54.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>26</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1426,7 +2795,15 @@
         <ele>55.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>19</visugpx:node>
+            <visugpx:node>27</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.817991" lon="-3.443983">
+        <ele>57.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>28</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1434,7 +2811,7 @@
         <ele>56.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>20</visugpx:node>
+            <visugpx:node>29</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1442,7 +2819,15 @@
         <ele>56.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>21</visugpx:node>
+            <visugpx:node>30</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.818111" lon="-3.442910">
+        <ele>57.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>31</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1450,7 +2835,15 @@
         <ele>58.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>22</visugpx:node>
+            <visugpx:node>32</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.818486" lon="-3.442122">
+        <ele>57.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>33</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1458,7 +2851,7 @@
         <ele>57.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>23</visugpx:node>
+            <visugpx:node>34</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1466,7 +2859,7 @@
         <ele>56.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>24</visugpx:node>
+            <visugpx:node>35</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1474,7 +2867,7 @@
         <ele>54.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>25</visugpx:node>
+            <visugpx:node>36</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1482,7 +2875,7 @@
         <ele>51.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>26</visugpx:node>
+            <visugpx:node>37</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1490,7 +2883,7 @@
         <ele>47</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>27</visugpx:node>
+            <visugpx:node>38</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1498,7 +2891,7 @@
         <ele>44.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>28</visugpx:node>
+            <visugpx:node>39</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1506,7 +2899,7 @@
         <ele>43.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>29</visugpx:node>
+            <visugpx:node>40</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1514,7 +2907,15 @@
         <ele>38.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>30</visugpx:node>
+            <visugpx:node>41</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.819411" lon="-3.437911">
+        <ele>39.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>42</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1522,15 +2923,39 @@
         <ele>36.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>31</visugpx:node>
+            <visugpx:node>43</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.819810" lon="-3.436700">
-        <ele>33.9</ele>
+      <trkpt lat="48.819736" lon="-3.436983">
+        <ele>32.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>32</visugpx:node>
+            <visugpx:node>44</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.819828" lon="-3.436720">
+        <ele>32.9</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>45</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.819831" lon="-3.436537">
+        <ele>31.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>46</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.819782" lon="-3.436344">
+        <ele>30.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>47</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1538,7 +2963,15 @@
         <ele>31.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>33</visugpx:node>
+            <visugpx:node>48</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.819132" lon="-3.435330">
+        <ele>29.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>49</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1546,31 +2979,79 @@
         <ele>24.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>34</visugpx:node>
+            <visugpx:node>50</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.818420" lon="-3.433610">
-        <ele>17.2</ele>
+      <trkpt lat="48.818592" lon="-3.434204">
+        <ele>22.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>35</visugpx:node>
+            <visugpx:node>51</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.818650" lon="-3.432290">
-        <ele>10.7</ele>
+      <trkpt lat="48.818457" lon="-3.433603">
+        <ele>16</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>36</visugpx:node>
+            <visugpx:node>52</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.818740" lon="-3.432790">
-        <ele>8.4</ele>
+      <trkpt lat="48.818599" lon="-3.432651">
+        <ele>12.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>37</visugpx:node>
+            <visugpx:node>53</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.818652" lon="-3.432627">
+        <ele>11.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>54</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.818735" lon="-3.432257">
+        <ele>8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>55</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.818807" lon="-3.432012">
+        <ele>6.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>56</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.818687" lon="-3.432927">
+        <ele>10.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>57</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.818673" lon="-3.433155">
+        <ele>10.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>58</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.818874" lon="-3.433171">
+        <ele>3.5</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>59</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1580,37 +3061,33 @@
     <name><![CDATA[Nat6 M]]></name>
     <extensions>
       <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-        <color>888800</color>
+        <color>0000FF</color>
         <opacity>1</opacity>
         <width>4</width>
       </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
     </extensions>
     <trkseg>
       <trkpt lat="48.818760" lon="-3.433280">
         <ele>6.8</ele>
-      </trkpt>
-      <trkpt lat="48.818760" lon="-3.433280">
-        <ele>6.8</ele>
-      </trkpt>
-      <trkpt lat="48.820410" lon="-3.434200">
-        <extensions>
-          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>1</visugpx:node>
-          </visugpx:TrkExtension>
-        </extensions>
-      </trkpt>
-      <trkpt lat="48.820980" lon="-3.430400">
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>2</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
+      <trkpt lat="48.818760" lon="-3.433280">
+        <ele>6.8</ele>
+      </trkpt>
+      <trkpt lat="48.820410" lon="-3.434200">
+      </trkpt>
+      <trkpt lat="48.820980" lon="-3.430400">
+      </trkpt>
       <trkpt lat="48.819220" lon="-3.430180">
         <ele>6.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
-            <visugpx:node>3</visugpx:node>
+            <visugpx:node>1</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
@@ -1620,10 +3097,11 @@
     <name><![CDATA[CAP 6 M]]></name>
     <extensions>
       <line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-        <color>ff0000</color>
+        <color>FF0000</color>
         <opacity>1</opacity>
         <width>4</width>
       </line>
+      <visugpx:visibility xmlns:visugpx="https://www.visugpx.com/editgpx/">hide</visugpx:visibility>
     </extensions>
     <trkseg>
       <trkpt lat="48.819100" lon="-3.430230">
@@ -1631,449 +3109,591 @@
       </trkpt>
       <trkpt lat="48.819340" lon="-3.429900">
         <ele>9.3</ele>
+      </trkpt>
+      <trkpt lat="48.819425" lon="-3.429451">
+        <ele>22</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>1</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.819425" lon="-3.429451">
-        <ele>22</ele>
+      <trkpt lat="48.820019" lon="-3.429118">
+        <ele>19.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>2</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.818111" lon="-3.429708">
-        <ele>30.7</ele>
+      <trkpt lat="48.820273" lon="-3.428850">
+        <ele>19</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>3</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.817658" lon="-3.429987">
-        <ele>34.7</ele>
+      <trkpt lat="48.820428" lon="-3.428550">
+        <ele>20.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>4</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.817234" lon="-3.430653">
-        <ele>35.8</ele>
+      <trkpt lat="48.820556" lon="-3.428185">
+        <ele>18.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>5</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.816386" lon="-3.430846">
-        <ele>34.2</ele>
+      <trkpt lat="48.820457" lon="-3.427938">
+        <ele>17</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>6</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815849" lon="-3.431082">
-        <ele>31.8</ele>
+      <trkpt lat="48.820414" lon="-3.427842">
+        <ele>15.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>7</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815693" lon="-3.431897">
-        <ele>29.5</ele>
+      <trkpt lat="48.820428" lon="-3.427756">
+        <ele>12</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>8</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815509" lon="-3.433485">
-        <ele>26.3</ele>
+      <trkpt lat="48.819877" lon="-3.427413">
+        <ele>25.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>9</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815128" lon="-3.433764">
-        <ele>23</ele>
+      <trkpt lat="48.819482" lon="-3.427219">
+        <ele>25.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>10</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813912" lon="-3.434343">
-        <ele>17.3</ele>
+      <trkpt lat="48.818938" lon="-3.427080">
+        <ele>24.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>11</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.812891" lon="-3.434685">
-        <ele>13.9</ele>
+      <trkpt lat="48.818323" lon="-3.426940">
+        <ele>26.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>12</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.812491" lon="-3.435337">
-        <ele>17.6</ele>
+      <trkpt lat="48.818055" lon="-3.426898">
+        <ele>24.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>13</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.812271" lon="-3.436915">
-        <ele>21.2</ele>
+      <trkpt lat="48.817906" lon="-3.426747">
+        <ele>18.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>14</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.811891" lon="-3.437810">
-        <ele>15.5</ele>
+      <trkpt lat="48.817673" lon="-3.426806">
+        <ele>20.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>15</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.811591" lon="-3.438235">
-        <ele>15.3</ele>
+      <trkpt lat="48.817610" lon="-3.426828">
+        <ele>20.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>16</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.812131" lon="-3.438857">
-        <ele>20.1</ele>
+      <trkpt lat="48.817539" lon="-3.426822">
+        <ele>19.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>17</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.812501" lon="-3.439388">
-        <ele>22.6</ele>
+      <trkpt lat="48.817458" lon="-3.426898">
+        <ele>20.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>18</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.812921" lon="-3.440086">
-        <ele>27.1</ele>
+      <trkpt lat="48.817225" lon="-3.426914">
+        <ele>15.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>19</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813091" lon="-3.440754">
-        <ele>29</ele>
+      <trkpt lat="48.817158" lon="-3.426973">
+        <ele>15.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>20</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813051" lon="-3.441330">
-        <ele>34.5</ele>
+      <trkpt lat="48.816861" lon="-3.427482">
+        <ele>15.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>21</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813890" lon="-3.442696">
-        <ele>39.7</ele>
+      <trkpt lat="48.816730" lon="-3.428314">
+        <ele>21.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>22</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.814210" lon="-3.444122">
-        <ele>46.8</ele>
+      <trkpt lat="48.816734" lon="-3.428856">
+        <ele>24.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>23</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.814490" lon="-3.444868">
-        <ele>47.9</ele>
+      <trkpt lat="48.816765" lon="-3.429016">
+        <ele>25.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>24</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.814964" lon="-3.446118">
-        <ele>48.2</ele>
+      <trkpt lat="48.817025" lon="-3.429738">
+        <ele>31.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>25</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815328" lon="-3.447470">
-        <ele>54</ele>
+      <trkpt lat="48.817112" lon="-3.430020">
+        <ele>34.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>26</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815497" lon="-3.448103">
-        <ele>54.1</ele>
+      <trkpt lat="48.817214" lon="-3.430626">
+        <ele>35.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>27</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815441" lon="-3.448243">
-        <ele>53.8</ele>
+      <trkpt lat="48.817389" lon="-3.430800">
+        <ele>33.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>28</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815391" lon="-3.448350">
-        <ele>53.8</ele>
+      <trkpt lat="48.817574" lon="-3.430891">
+        <ele>29.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>29</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815239" lon="-3.448339">
-        <ele>55.1</ele>
+      <trkpt lat="48.818119" lon="-3.431202">
+        <ele>18.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>30</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815105" lon="-3.448221">
-        <ele>55.5</ele>
+      <trkpt lat="48.818084" lon="-3.431582">
+        <ele>18.1</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>31</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.814681" lon="-3.448221">
-        <ele>55.2</ele>
+      <trkpt lat="48.818104" lon="-3.431870">
+        <ele>17.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>32</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.814278" lon="-3.448178">
-        <ele>55.3</ele>
+      <trkpt lat="48.818303" lon="-3.432052">
+        <ele>15.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>33</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.814251" lon="-3.448644">
-        <ele>56.1</ele>
+      <trkpt lat="48.818618" lon="-3.432166">
+        <ele>11.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>34</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.814186" lon="-3.449539">
-        <ele>56.9</ele>
+      <trkpt lat="48.818543" lon="-3.433205">
+        <ele>13.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>35</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.814131" lon="-3.450222">
-        <ele>57</ele>
+      <trkpt lat="48.818478" lon="-3.433668">
+        <ele>16.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>36</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813996" lon="-3.450533">
-        <ele>57</ele>
+      <trkpt lat="48.818628" lon="-3.434328">
+        <ele>23.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>37</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813801" lon="-3.450920">
-        <ele>57</ele>
+      <trkpt lat="48.818978" lon="-3.435087">
+        <ele>28.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>38</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813706" lon="-3.451830">
-        <ele>57.3</ele>
+      <trkpt lat="48.819827" lon="-3.436460">
+        <ele>30.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>39</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813691" lon="-3.453158">
-        <ele>56.4</ele>
+      <trkpt lat="48.819837" lon="-3.436695">
+        <ele>33</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>40</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813671" lon="-3.454629">
-        <ele>53.1</ele>
+      <trkpt lat="48.819657" lon="-3.437165">
+        <ele>34</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>41</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813656" lon="-3.454880">
-        <ele>51.8</ele>
+      <trkpt lat="48.819437" lon="-3.437787">
+        <ele>37.5</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>42</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813806" lon="-3.455062">
-        <ele>48.6</ele>
+      <trkpt lat="48.819417" lon="-3.438523">
+        <ele>40.8</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>43</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813866" lon="-3.455244">
-        <ele>47.6</ele>
+      <trkpt lat="48.819307" lon="-3.439016">
+        <ele>44.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>44</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.814051" lon="-3.455358">
-        <ele>37.7</ele>
+      <trkpt lat="48.819277" lon="-3.440056">
+        <ele>47.3</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>45</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813871" lon="-3.456071">
-        <ele>34.5</ele>
+      <trkpt lat="48.819317" lon="-3.440465">
+        <ele>50.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>46</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813691" lon="-3.456837">
-        <ele>28.9</ele>
+      <trkpt lat="48.819287" lon="-3.440875">
+        <ele>53.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>47</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.813891" lon="-3.457027">
-        <ele>20.7</ele>
+      <trkpt lat="48.819088" lon="-3.441512">
+        <ele>56.6</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>48</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.814216" lon="-3.457049">
-        <ele>16</ele>
+      <trkpt lat="48.818853" lon="-3.441717">
+        <ele>57.2</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>49</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.814911" lon="-3.457247">
-        <ele>9.3</ele>
+      <trkpt lat="48.818703" lon="-3.441839">
+        <ele>57</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>50</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815046" lon="-3.456663">
-        <ele>9.8</ele>
+      <trkpt lat="48.818348" lon="-3.442408">
+        <ele>58.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>51</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815146" lon="-3.456253">
-        <ele>10</ele>
+      <trkpt lat="48.818094" lon="-3.443015">
+        <ele>57</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>52</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815246" lon="-3.456162">
-        <ele>9.9</ele>
+      <trkpt lat="48.817994" lon="-3.443712">
+        <ele>57</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>53</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815356" lon="-3.456351">
-        <ele>8.8</ele>
+      <trkpt lat="48.817944" lon="-3.444297">
+        <ele>55.4</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>54</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.815471" lon="-3.456890">
-        <ele>8.3</ele>
+      <trkpt lat="48.817789" lon="-3.444714">
+        <ele>55.7</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>55</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
-      <trkpt lat="48.816076" lon="-3.458681">
-        <ele>7.1</ele>
+      <trkpt lat="48.817454" lon="-3.444904">
+        <ele>53.9</ele>
         <extensions>
           <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
             <visugpx:node>56</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816650" lon="-3.445139">
+        <ele>49.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>57</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816215" lon="-3.446125">
+        <ele>50</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>58</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816318" lon="-3.446284">
+        <ele>50.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>59</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816340" lon="-3.446576">
+        <ele>50.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>60</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816338" lon="-3.446812">
+        <ele>49.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>61</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815971" lon="-3.447937">
+        <ele>45.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>62</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.816041" lon="-3.448892">
+        <ele>44.3</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>63</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815872" lon="-3.449492">
+        <ele>42.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>64</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815547" lon="-3.450040">
+        <ele>37.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>65</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815363" lon="-3.450490">
+        <ele>30.8</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>66</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.814939" lon="-3.453172">
+        <ele>23.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>67</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.814854" lon="-3.454417">
+        <ele>18.1</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>68</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.814897" lon="-3.454857">
+        <ele>16.6</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>69</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815038" lon="-3.455372">
+        <ele>13.4</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>70</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815100" lon="-3.455383">
+        <ele>12.9</ele>
+      </trkpt>
+      <trkpt lat="48.815178" lon="-3.455289">
+        <ele>12.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>71</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815298" lon="-3.455224">
+        <ele>11.7</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>72</visugpx:node>
+          </visugpx:TrkExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.815406" lon="-3.455265">
+        <ele>10.2</ele>
+        <extensions>
+          <visugpx:TrkExtension xmlns:visugpx="https://www.visugpx.com/editgpx/">
+            <visugpx:node>73</visugpx:node>
           </visugpx:TrkExtension>
         </extensions>
       </trkpt>
