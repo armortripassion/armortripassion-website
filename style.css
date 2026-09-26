@@ -1389,6 +1389,9 @@ footer {
     list-style: none;
     overflow-x: auto;
     scrollbar-width: none;
+    flex: 1 1 auto;
+    min-width: 0;
+    -webkit-overflow-scrolling: touch;
 }
 
 .subnav-links::-webkit-scrollbar { display: none; }
@@ -1411,7 +1414,14 @@ footer {
     color: #fff;
 }
 
-.subnav .btn { padding: 0.55rem 1.3rem; font-size: 0.92rem; flex-shrink: 0; }
+.subnav .btn { padding: 0.55rem 1.3rem; font-size: 0.92rem; flex-shrink: 0; white-space: nowrap; }
+
+/* Sous-nav sur petits écrans : la liste de liens défile, le bouton reste visible */
+@media (max-width: 640px) {
+    .subnav-inner { padding: 0 14px; gap: 0.6rem; }
+    .subnav-links a { padding: 0.45rem 0.75rem; }
+    .subnav .btn { padding: 0.5rem 0.85rem; font-size: 0.82rem; }
+}
 
 /* Bloc intro événement (texte + encadré infos) */
 .event-intro-grid {
