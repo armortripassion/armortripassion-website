@@ -1904,3 +1904,113 @@ footer {
     .event-foot { flex-direction: column; align-items: stretch; }
     .event-foot .btn { width: 100%; }
 }
+
+/* =========================================================
+   Adhésion & licences
+   ========================================================= */
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 28px;
+    align-items: stretch;
+}
+
+.step-card {
+    position: relative;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 2.25rem 2rem;
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+}
+
+.step-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+
+.step-num {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #fff;
+    background: linear-gradient(135deg, var(--coral), var(--coral-600));
+    margin-bottom: 1.1rem;
+}
+
+.step-card h3 { font-size: 1.3rem; margin-bottom: 0.4rem; }
+.step-card .step-where { color: var(--ocean); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.8rem; }
+.step-card p { color: var(--slate); margin-bottom: 1.2rem; }
+.step-card .btn { margin-top: auto; align-self: flex-start; }
+
+/* Encart d'information */
+.callout {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    background: rgba(29, 111, 214, 0.06);
+    border: 1px solid rgba(29, 111, 214, 0.2);
+    border-left: 4px solid var(--ocean);
+    border-radius: var(--radius-sm);
+    padding: 1.1rem 1.4rem;
+    margin-top: 2rem;
+    color: var(--ink);
+}
+
+.callout i { color: var(--ocean); font-size: 1.25rem; margin-top: 0.15rem; }
+.callout strong { color: var(--navy); }
+
+/* Mention tarif licence (remplace le prix sur les cartes) */
+.package-price.license-fee {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: var(--slate);
+    font-weight: 600;
+}
+
+/* ---------- Bandeau d'affiliation FFTRI ---------- */
+.affiliation { text-align: center; }
+
+.affiliation-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.affiliation-logos img {
+    height: 92px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Logos d'affiliation dans le pied de page */
+.footer-affiliation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 22px;
+}
+
+.footer-affiliation img {
+    height: 52px;
+    width: auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 6px 9px;
+}
+
+@media (max-width: 520px) {
+    .affiliation-logos { gap: 1.5rem; }
+    .affiliation-logos img { height: 68px; }
+    .footer-affiliation img { height: 44px; }
+}
