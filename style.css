@@ -2014,3 +2014,21 @@ footer {
     .affiliation-logos img { height: 68px; }
     .footer-affiliation img { height: 44px; }
 }
+
+/* Appel à l'action centré en bas de section */
+.section-cta {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.section-cta p {
+    color: var(--slate);
+    margin-bottom: 1.2rem;
+}
+
+.section-cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
